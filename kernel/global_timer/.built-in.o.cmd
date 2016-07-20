@@ -1,0 +1,1 @@
+cmd_drivers/staging/global_timer/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-fsl-linux-gnueabi-ld -EL    -r -o drivers/staging/global_timer/built-in.o drivers/staging/global_timer/gtimer.o 
