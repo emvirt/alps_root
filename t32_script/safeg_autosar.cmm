@@ -1,0 +1,23 @@
+do test_win.cmm
+
+y.SPATH.t "\home\htkim\TCAD2\u-boot-arndale\" "z:\TCAD2\u-boot-arndale\"
+y.SPATH.t "\home\hjpark\TCAD\u-boot-arndale\" "z:\TCAD2\u-boot-arndale\"
+
+Data.load.b Z:\TCAD2\monitor\safeg\safeg.bin 0x40000000	
+Data.load.b Z:\TCAD2\autosar20_wobsw\autosar20.bin 0x41000000
+
+data.load.ELF z:\TCAD2\u-boot-arndale\u-boot /RELOC .text AT 0xBFF76000
+;b.s 0x41004a60 /o /p
+
+
+
+Break.Set     ZR:0xBFF78660 /Program /Onchip	;boot_monitor
+
+;Data.load.b Z:\TCAD2\monitor\safeg\safeg.bin 0x40000000	
+;Data.load.b Z:\TCAD2\autosar20_wobsw\autosar20.bin 0x41000000	
+
+;Data.load.ELF Z:\TCAD2\monitor\safeg\safeg.elf /nocode
+;Data.load.ELF Z:\TCAD2\autosar20_wobsw\autosar20.elf /nocode
+
+;D.S A:0x0:0x10020950 %LE %LONG 0xF308803F	;timer4 clock enable
+;D.S A:0x0:0x12DD0044 %LE %LONG 0x210		;timer4 interrupt enable

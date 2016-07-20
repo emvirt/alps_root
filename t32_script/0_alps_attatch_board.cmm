@@ -1,0 +1,35 @@
+; Start-up script for Exynos 5250 on Arndale Board
+; PEG, June 2013
+
+  SCREEN.ALways
+  WinCLEAR
+
+
+  PRINT "setting up debugger..."
+  RESet
+  SYStem.Mode NoDebug
+  SYStem.CPU iMX6solo
+  ;CORE.ASSIGN 1 2
+  ETM.OFF                   ; ETM modules seem to miss power or clock, I do not know how to activate them
+  TrOnchip.Set PABORT OFF
+  TrOnchip.Set DABORT OFF
+  TrOnchip.Set UNDEF OFF
+
+  PRINT "opening terminal..."
+
+  
+  PRINT "attaching..."
+  WAIT 2.s
+  SYStem.Mode Attach
+  IF RUN()
+   Break.direct
+ 
+
+  PRINT "done."
+
+ 
+ WAIT 1.s
+
+;go
+
+enddo

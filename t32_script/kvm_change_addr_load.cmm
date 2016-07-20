@@ -1,0 +1,38 @@
+y.SPATH.t "\home\htkim\arndale\u-boot-arndale\" "Z:\arndale\u-boot-arndale\"
+;data.load.ELF Z:\arndale\u-boot-arndale\u-boot /RELOC .text AT 0xBFF76000 /nocode
+data.load.ELF Z:\arndale\u-boot-arndale\u-boot 
+;b.s 0x41004a60 /o /p
+;b.s 0x43e00000 /o /p
+
+;R.S PC 0x43e00000 /CORE 0.
+
+do test_win.cmm
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+break.set 0x50008000 /program /Onchip
+
+go
+Wait !run()
+
+;data.load.binary Z:\arndale\linux-kvm-arm-change-addr/arch/arm/boot/dts/exynos5250-arndale.dtb 0x42000000
+;data.load.binary Z:\arndale\linux-kvm-arm\arch\arm\boot\uImage 0x50007fc0
+data.load.binary Z:\arndale\linux-kvm-arm-change-addr\arch\arm\boot\uImage 0x50007fc0
+
+y.SPATH.t "\home\htkim\arndale\linux-kvm-arm-change-addr\" "Z:\arndale\linux-kvm-arm-change-addr\"
+;data.load.ELF Z:\arndale\linux-kvm-arm\vmlinux /nocode
+data.load.ELF Z:\arndale\linux-kvm-arm-change-addr\vmlinux /nocode
+
+break.d
+;R.S PC 0x50008000 /CORE 0.
+
+;break.s start_kernel /p /o
+;break.set ZR:0xC04F44FC /program /Onchip
+
+TASK.CONFIG ~~/demo/arm/kernel/linux/linux-3.x/linux3       ; loads Linux awareness (linux.t32)
+MENU.ReProgram ~~/demo/arm/kernel/linux/linux-3.x/linux    ; loads Linux menu (linux.men)
+
+
+;go

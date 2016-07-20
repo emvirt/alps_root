@@ -1,0 +1,11 @@
+sys.d
+sys.CPU iMX6dual
+sys.m.a
+
+b
+y.reset
+y.SPATH.t "\home\swkim\alps\final\kernel\" "X:\alps\final\kernel\"
+d.load.elf x:\alps\final\kernel\secure\linux-3.0.35\vmlinux Z: /nocode /noclear
+d.load.elf x:\alps\final\kernel\normal\linux-3.0.35\vmlinux N: /nocode /noclear
+
+v.v tz_log

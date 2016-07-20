@@ -1,0 +1,38 @@
+;10008000	//secure
+;30008000	//normal
+
+y.SPATH.t "\home\swkim\alps\final\kernel\" "X:\alps\final\kernel\"
+y.SPATH.t "\home\swkim\alps\kernel_tar\kernel\" "X:\alps\kernel_tar\kernel\"
+
+
+do 0_alps_test_win.cmm
+
+
+break.set 0x10008000 /program /Onchip
+go
+Wait !run()
+
+;;;;kernel_tar;;;;
+;Data.load.b X:\alps\kernel_tar\kernel\secure\linux-3.0.35\arch\arm\boot\uImage 0x10007fc0
+;Data.load.b X:\alps\kernel_tar\kernel\normal\linux-3.0.35\arch\arm\boot\uImage 0x30007fc0
+
+;;;;final;;;;
+;Data.load.b X:\alps\final\kernel\secure\linux-3.0.35\arch\arm\boot\uImage 0x10007fc0
+;Data.load.elf X:\alps\final\kernel\secure\linux-3.0.35\vmlinux /nocode /noclear
+;Data.load.b X:\alps\final\kernel\normal\linux-3.0.35\arch\arm\boot\uImage 0x30007fc0
+
+
+Data.load.b X:\uImage_secure_tar 0x10007fc0
+Data.load.b X:\uImage_normal_tar 0x30007fc0
+;Data.load.b X:\uImage_secure_hjpark 0x30007fc0
+
+;break.d
+b.set 0x80008620 /program /onchip
+
+;<6>CPU: Testing write buffer coherency: ok
+;<2>CPU1: failed to come online
+;<6>Brought up 1 CPUs
+
+;May 9 2014  //unalbe to normal	/hjpark/alps
+;Jul 15 2014 //able to normal	/SDCARD
+;Feb 3 2016  //unable to boot	/var

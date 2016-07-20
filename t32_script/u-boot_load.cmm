@@ -1,0 +1,11 @@
+do 1_attatch_board.cmm
+
+y.SPATH.t "\home\htkim\arndale\u-boot-arndale\" "Z:\arndale\u-boot-arndale\"
+;data.load.ELF Z:\arndale\u-boot-arndale\u-boot /RELOC .text AT 0xBFF76000 /nocode
+data.load.ELF Z:\arndale\u-boot-arndale\u-boot /nocode
+;b.s 0x41004a60 /o /p
+;b.s 0x43e00000 /o /p
+
+R.S PC 0x43e00000 /CORE 0.
+
+do test_win.cmm

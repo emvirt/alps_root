@@ -1,0 +1,16 @@
+;pwm clock enable
+D.S A:0x0:0x10020950 %LE %LONG 0xF308803F 
+
+;timer4 interrupt enable
+D.S A:0x0:0x12DD0044 %LE %LONG 0x210
+
+;timer3 interrupt enable
+;D.S A:0x0:0x12DD0008 %LE %LONG 0x005b0008
+;D.S A:0x0:0x12DD0008 %LE %LONG 0x00590008	//clock enable 된 뒤에 최초 한번 해줘야 tmr3 tick 들어감
+;D.S A:0x0:0x12DD0044 %LE %LONG 0x308
+
+;tmr3 and tmr4 both interrupt enable
+;D.S A:0x0:0x12DD0044 %LE %LONG 0x318
+
+;timer3 reload time setting
+;

@@ -1,0 +1,5 @@
+;4. timer4 clock enable
+;D.S A:0x0:0x10020950 %LE %LONG 0xF308803F 
+
+;5. timer4 interrupt disable
+D.S A:0x0:0x12DD0044 %LE %LONG 0x200

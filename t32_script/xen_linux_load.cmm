@@ -1,0 +1,13 @@
+do 1_attach_board.cmm
+do test_win.cmm
+
+Data.load.b Z:\TCAD2\monitor\safeg\safeg.bin 0x40000000	
+;Data.load.elf Z:\TCAD2\monitor\safeg\safeg.elf /nocode /noclear
+Data.load.b Z:\TCAD2\autosar20_wobsw\autosar20.bin 0x41000000
+;Data.load.elf Z:\TCAD2\autosar20_wobsw\autosar20.elf /nocode /noclear
+
+y.SPATH.t "\home\hjpark\TCAD\u-boot-arndale\" "z:\TCAD2\u-boot-arndale\"
+data.load.ELF z:\TCAD2\u-boot-arndale\u-boot /RELOC .text AT 0xBFF76000
+;b.s 0x41004a60 /o /p
+
+Break.Set     ZR:0xBFF78660 /Program /Onchip	;boot_monitor

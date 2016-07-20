@@ -1,0 +1,55 @@
+;10008000	//secure
+;30008000	//normal
+
+;y.SPATH.t "\home\swkim\alps\kernel_tar\kernel\" "X:\alps\kernel_tar\kernel\"
+y.SPATH.t "\home\swkim\alps\final\kernel\" "X:\alps\final\kernel\"
+;y.SPATH.t "\home\swkim\alps\github2\final_secure\" "X:\alps\github2\final_secure\"
+;y.SPATH.t "\home\swkim\alps\github2\final_normal\" "X:\alps\github2\final_normal\"
+
+do 0_alps_test_win.cmm
+
+break.set 0x7ff116c0 /program /Onchip
+go
+Wait !run()
+
+;;; final ;;;
+;&src_path="X:\alps\github2"
+&src_path="X:\alps\final\kernel"
+;;&pc_addr=0x7ff11480
+
+;;; final ;;;
+d.load.elf &src_path\secure\monitor\safeg\safeg.elf
+
+break.set 0x10008000 /program /Onchip
+go
+Wait !run()
+
+;Data.load.b &src_path\secure\linux-3.0.35\arch\arm\boot\uImage 0x10007fc0
+;Data.load.b &src_path\normal\linux-3.0.35\arch\arm\boot\uImage 0x30800000 ;0x30007fc0
+;Data.load.elf &src_path\secure\linux-3.0.35\vmlinux /nocode /noclear
+; github2
+Data.load.b X:\alps\github2\final_secure\linux-3.0.35\arch\arm\boot\uImage 0x10007fc0
+Data.load.b X:\alps\github2\final_normal\linux-3.0.35\arch\arm\boot\uImage 0x30800000
+
+;;;; github2 ;;;;
+;d.load.elf &src_path\final_secure\monitor\safeg\safeg.elf
+;Data.load.b &src_path\final_secure\linux-3.0.35\arch\arm\boot\uImage 0x10007fc0
+;Data.load.b &src_path\final_normal\linux-3.0.35\arch\arm\boot\uImage 0x30007fc0
+;Data.load.elf &src_path\final_secure\linux-3.0.35\vmlinux /nocode /noclear
+;r.s pc &pc_addgr
+
+;Data.load.b X:\uImage_secure_tar 0x10007fc0
+;Data.load.b X:\uImage_normal_tar 0x30007fc0
+;Data.load.b X:\uImage_secure_hjpark 0x30007fc0
+
+break.d
+
+;b.set 0x80008620 /program /onchip
+
+;<6>CPU: Testing write buffer coherency: ok
+;<2>CPU1: failed to come online
+;<6>Brought up 1 CPUs
+
+;May 9 2014  //unalbe to normal	/hjpark/alps
+
+;7ff114e0

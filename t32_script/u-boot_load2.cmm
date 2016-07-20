@@ -1,0 +1,28 @@
+do 1_attach_board.cmm
+
+
+;Data.load.b Z:\arndale\LET-V_u-boot\monitor\safeg\safeg.bin 0x40000000	
+;data.load.ELF Z:\arndale\LET-V_u-boot\monitor\safeg\safeg.elf /nocode
+
+;AUTOSAR는 디버거가 올려 줌
+Data.load.b Z:\arndale\LET-V_u-boot\autosar20_wobsw\autosar20.bin 0x41000000
+Data.load.elf Z:\arndale\LET-V_u-boot\autosar20_wobsw\autosar20.elf /nocode /noclear
+;Data.load.elf Z:\arndale\LET-V_u-boot\autosar20_wobsw\autosar20.elf /noclear
+
+y.SPATH.t "\home\htkim\arndale\LET-V_u-boot\" "z:\arndale\LET-V_u-boot\"
+data.load.ELF Z:\arndale\LET-V_u-boot\u-boot /RELOC .text AT 0xBFF78000 /noclear
+;data.load.ELF Z:\arndale\LET-V_u-boot\u-boot 
+;b.s 0x41004a60 /o /p
+
+;Break.Set     ZR:0xBFF78660 /Program /Onchip	;boot_monitor
+do test_win.cmm
+;go
+
+
+
+
+;;;;;;; native
+;do 1_attach_board.cmm
+;do test_win.cmm
+;y.SPATH.t "\home\htkim\arndale\autosar20_wobsw_native\" "z:\arndale\autosar20_wobsw_native\"
+;Data.load.elf Z:\arndale\autosar20_wobsw_native\autosar20.elf

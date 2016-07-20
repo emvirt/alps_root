@@ -1,0 +1,13 @@
+;do test_win.cmm
+
+break.set 0x40008000 /program /Onchip
+;data.load.binary Z:\arndale\linux-kvm-arm\arch\arm\boot\uImage 0x50007fc0
+data.load.binary Z:\arndale\bin_result_change_addr\uImage 0x50007fc0
+
+y.SPATH.t "\home\htkim\arndale\linux-kvm-arm-change-addr\" "Z:\arndale\linux-kvm-arm-change-addr\"
+;data.load.ELF Z:\arndale\linux-kvm-arm\vmlinux /nocode
+data.load.ELF Z:\arndale\linux-kvm-arm-change-addr\vmlinux /nocode
+
+;break.d 40008000
+break.set ZR:0xC04F44FC /program /Onchip
+;R.S PC 0x50008000 /CORE 0.

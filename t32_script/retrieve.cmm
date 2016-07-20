@@ -1,0 +1,18 @@
+area.clear
+
+area.create FOR_CAMPTURE 20. 20.	//새 area 생성
+area.select FOR_CAMPTURE 			//새 area 선택
+area.open FOR_CAMPTURE G:\arndale_fiq_latency_native.txt	//area 파일로 오픈
+;area.open A000 G:\test.txt
+
+&tmp=0
+
+WHILE &tmp<0x61a80
+;WHILE &tmp<0x3000
+( 
+ 	;v tmr_record[&tmp][0]
+	PRINT %decimal (0x795-Data.Long(tmr_record+&tmp))*0.5151515
+ 	;v (long)tmr_record+&tmp
+ 	&tmp=&tmp+4
+)
+area.close FOR_CAMPTURE

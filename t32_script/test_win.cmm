@@ -1,0 +1,39 @@
+// T32 Thu Sep 17 20:22:56 2015
+
+ B::
+ 
+ TOOLBAR ON
+ STATUSBAR ON
+ FramePOS 17.875,10.5,,,Maximized
+ WinPAGE.RESet
+ 
+ WinPAGE.Create P000
+ 
+ WinCLEAR
+ WinPOS 109.5 0.0 45. 29. 0. 0. W001
+ REGISTER /SPOTLIGHT /CORE 0
+ 
+ WinPOS 159.13 0.0 45. 29. 0. 0. W006
+ REGISTER /SPOTLIGHT /CORE 1
+ 
+ WinPOS 109.5 32.857 67. 8. 0. 1. W000
+ WinTABS 22. 19.
+ wl.sYmbol.Browse
+ 
+ WinPOS 208.63 0.0 21. 25. 0. 0. W005
+ wl.per , "System Performance Monitor"
+ 
+ WinPOS 197.88 32.786 37. 24. 5. 0. W003
+ Var.Frame /l /c
+ 
+ WinPOS 109.38 47.571 84. 10. 26. 1. W007
+ WinTABS 9. 16. 0. 0. 0. 0. 0.
+ Break.List
+ 
+ WinPOS 0.0 0.0 84. 57. 16. 1. W002
+ WinTABS 10. 17. 25. 62.
+ wl.Data.List
+ 
+ WinPAGE.select P000
+ 
+ ENDDO

@@ -1,0 +1,18 @@
+
+y.SPATH.t "\home\htkim\arndale\u-boot-arndale\" "Z:\arndale\u-boot-arndale\"
+;data.load.ELF Z:\arndale\u-boot-arndale\u-boot /RELOC .text AT 0xBFF76000 /nocode
+data.load.ELF Z:\arndale\u-boot-arndale\u-boot /nocode
+;b.s 0x41004a60 /o /p
+b.s 0x43e00000 /o /p
+
+;data.load.ELF Z:\arndale\u-boot-arndale\spl\u-boot-spl  /nocode
+
+;y.SPATH.t "\home\htkim\arndale\LET-V_u-boot\autosar20_wobsw" "Z:\arndale\LET-V_u-boot\autosar20_wobsw"
+data.load.elf Z:\arndale\LET-V_u-boot\autosar20_wobsw\autosar20.elf
+;data.load.binary Z:\arndale\LET-V_u-boot\autosar20_wobsw\autosar20.bin 0x41000000
+;R.S PC 0x41004a60 /CORE 0. 
+
+
+;Break.Set     ZR:0xBFF78660 /Program /Onchip	;boot_monitor
+do test_win.cmm
+;go
