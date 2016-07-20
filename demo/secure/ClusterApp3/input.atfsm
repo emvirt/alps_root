@@ -1,0 +1,24 @@
+// GUIDE model version:  5.4.2.54367
+
+key_status
+{
+    press 0;
+    release 1;
+    short 2;
+    long 3;
+    ultralong 4;
+    continous 5;
+}
+
+touch_status
+{
+    press 0;
+    move 1;
+    release 2;
+    proximity 3;
+    short 4;
+    long 5;
+    ultralong 6;
+    continous 7;
+}
+

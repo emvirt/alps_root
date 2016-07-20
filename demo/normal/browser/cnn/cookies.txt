@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.cnn.com	TRUE	/	FALSE	1999999999	adDEmas	R02&broadband&kia.com&0&kor&410018&0&25025&-&-&-&260890&
+.cnn.com	TRUE	/	FALSE	1999999999	adDEon	true
+

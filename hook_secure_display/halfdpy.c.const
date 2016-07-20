@@ -1,0 +1,194 @@
+#include <stdio.h>
+#include <dlfcn.h>
+
+#include "EGL/eglvivante.h"
+#include "hookegl.h"
+
+// cyoung : Get the address of the orinal function
+void *hldpy_GetFuncAddr(char *objname, char *funcname)
+{
+	void *handle = NULL;
+	void *func = NULL;
+
+	if(objname == NULL || funcname == NULL)
+		return NULL;
+
+	// open a binary file with the original function
+	handle = dlopen(objname, RTLD_LAZY);
+	if(handle == NULL)
+	{
+		printf("dlopen() failed : %s\n", dlerror());
+		return NULL;
+	}
+
+	// search the address using a function name
+	func = dlsym(handle, funcname);
+	if(func == NULL)
+	{
+		printf("dlsym() failed : %s\n", dlerror());
+		dlclose(handle);
+		return NULL;
+	}
+
+	dlclose(handle);
+	
+	return func;
+}
+
+// cyoung : Modfied to seperate a display ------------------
+EGLNativeWindowType fbCreateWindow(EGLNativeDisplayType Display, int X, int Y, int Width, int Height)
+{
+	EGLNativeWindowType (*freescale_fbCreateWindow)(EGLNativeDisplayType Display, int X, int Y, int Width, int Height) = NULL;
+	EGLNativeWindowType native_window = (EGLNativeWindowType)0;
+	int display_width = 0;
+	int display_height = 0;
+	int half_width = 0;
+
+	freescale_fbCreateWindow = hldpy_GetFuncAddr("libEGL.so", "fbCreateWindow");
+	if(freescale_fbCreateWindow == NULL)
+	{
+		printf("fbCreateWindow() is not hooked.\n");
+		return 0;
+	}
+
+	// Get the width and height values of a Display
+	fbGetDisplayGeometry(Display, &display_width, &display_height);
+
+	half_width = display_width / 2;
+
+	if(Width == 0 || Width > half_width)
+	{
+		// Divides the dispaly
+		Width = half_width;
+		Height = display_height;
+	}
+
+#ifdef NORMAL_WORLD
+	if(X < Width)
+	{
+		X = X + half_width;
+	}
+#endif
+
+	// Create a window on the left half of the display
+	native_window = freescale_fbCreateWindow(Display, X, Y, Width, Height);
+
+	return native_window;
+}
+
+void hldpy_ModResolution(EGLint *attrib_list, EGLint width, EGLint height)
+{
+	int i = 0;
+	EGLint attr = 0;
+	EGLint value = 0;
+	EGLint pixel = 0;
+
+	for(i=0; attrib_list[i] != EGL_NONE; i++)
+	{
+		attr = attrib_list[i++];
+		value = attrib_list[i];
+
+		switch(attr)
+		{
+		case EGL_MAX_PBUFFER_PIXELS:
+			attrib_list[i] = value / 4;
+			pixel = width * height;
+			if(attrib_list[i] > pixel)
+				attrib_list[i] = pixel;
+			break;
+		case EGL_MAX_PBUFFER_WIDTH:
+		case EGL_WIDTH:
+			attrib_list[i] = value / 2;
+			if(attrib_list[i] > width)
+				attrib_list[i] = width;
+			break;
+		case EGL_MAX_PBUFFER_HEIGHT:
+		case EGL_HEIGHT:
+			attrib_list[i] = value / 2;
+			if(attrib_list[i] > height)
+				attrib_list[i] = height;
+			break;
+		}
+	}
+}
+
+EGLSurface eglCreateWindowSurface(EGLDisplay dpy, EGLConfig config, EGLNativeWindowType win, EGLint *attrib_list)
+{
+	EGLSurface (*freescale_eglCreateWindowSurface)(EGLDisplay dpy, EGLConfig config, EGLNativeWindowType win, const EGLint *attrib_list);
+	EGLint display_width = 0;
+	EGLint display_height = 0;
+	EGLSurface surface;
+
+	// Get the address of the original function
+	freescale_eglCreateWindowSurface = hldpy_GetFuncAddr("libEGL.so", "eglCreateWindowSurface");
+	if(freescale_eglCreateWindowSurface == NULL)
+	{
+		printf("eglCreateWindowSurface() is not hooked.\n");
+		return 0;
+	}
+
+	// Get the width and height values of a Display
+	fbGetDisplayGeometry(dpy, &display_width, &display_height);
+
+	// Reduce the width of a suface
+	hldpy_ModResolution(attrib_list, display_width/2, display_height);
+
+	// Call the original function
+	surface = freescale_eglCreateWindowSurface(dpy, config, win, attrib_list);
+
+	return surface;
+}
+
+EGLSurface eglCreatePbufferSurface(EGLDisplay dpy, EGLConfig config, EGLint *attrib_list)
+{
+	EGLSurface (*freescale_eglCreatePbufferSurface)(EGLDisplay dpy, EGLConfig config, const EGLint *attrib_list);
+	EGLint display_width = 0;
+	EGLint display_height = 0;
+	EGLSurface surface;
+
+	// Get the address of the original function
+	freescale_eglCreatePbufferSurface = hldpy_GetFuncAddr("libEGL.so", "eglCreatePbufferSurfac");
+	if(freescale_eglCreatePbufferSurface == NULL)
+	{
+		printf("elgCreatePbufferSurface() is not hooked.\n");
+		return 0;
+	}
+
+	// Get the width and height values of a Display
+	fbGetDisplayGeometry(dpy, &display_width, &display_height);
+
+	// Reduce the width of a suface
+	hldpy_ModResolution(attrib_list, display_width/2, display_height);
+
+	// Call the original function
+	surface = freescale_eglCreatePbufferSurface(dpy, config, attrib_list);
+
+	return surface;
+}
+
+EGLSurface eglCreatePixmapSurface(EGLDisplay dpy, EGLConfig config, EGLNativePixmapType pixmap, EGLint *attrib_list)
+{
+	EGLSurface (*freescale_eglCreatePixmapSurface)(EGLDisplay dpy, EGLConfig config, EGLNativePixmapType pixmap, const EGLint *attrib_list);
+	EGLint display_width = 0;
+	EGLint display_height = 0;
+	EGLSurface surface;
+
+	// Get the address of the original function
+	freescale_eglCreatePixmapSurface = hldpy_GetFuncAddr("libEGL.so", "eglCreatePixmapSurface");
+	if(freescale_eglCreatePixmapSurface == NULL)
+	{
+		printf("elgCreatePixmapSurface() is not hooked.\n");
+		return 0;
+	}
+
+	// Get the width and height values of a Display
+	fbGetDisplayGeometry(dpy, &display_width, &display_height);
+
+	// Reduce the width of a suface
+	hldpy_ModResolution(attrib_list, display_width/2, display_height);
+
+	// Call the original function
+	surface = freescale_eglCreatePixmapSurface(dpy, config, pixmap, attrib_list);
+
+	return surface;
+}

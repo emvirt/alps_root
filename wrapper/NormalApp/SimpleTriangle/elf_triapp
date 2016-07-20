@@ -1,0 +1,559 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x92c0
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          23208 (bytes into file)
+  Flags:                             0x5000002, has entry point, Version5 EABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         10
+  Size of section headers:           40 (bytes)
+  Number of section headers:         38
+  Section header string table index: 35
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        00008174 000174 000013 00   A  0   0  1
+  [ 2] .note.ABI-tag     NOTE            00008188 000188 000020 00   A  0   0  4
+  [ 3] .hash             HASH            000081a8 0001a8 000250 04   A  4   0  4
+  [ 4] .dynsym           DYNSYM          000083f8 0003f8 0004f0 10   A  5   1  4
+  [ 5] .dynstr           STRTAB          000088e8 0008e8 000490 00   A  0   0  1
+  [ 6] .gnu.version      VERSYM          00008d78 000d78 00009e 02   A  4   0  2
+  [ 7] .gnu.version_r    VERNEED         00008e18 000e18 000020 00   A  5   1  4
+  [ 8] .rel.dyn          REL             00008e38 000e38 000090 08   A  4   0  4
+  [ 9] .rel.plt          REL             00008ec8 000ec8 000188 08   A  4  11  4
+  [10] .init             PROGBITS        00009050 001050 000010 00  AX  0   0  4
+  [11] .plt              PROGBITS        00009060 001060 000260 04  AX  0   0  4
+  [12] .text             PROGBITS        000092c0 0012c0 000c44 00  AX  0   0  4
+  [13] .fini             PROGBITS        00009f04 001f04 00000c 00  AX  0   0  4
+  [14] .rodata           PROGBITS        00009f10 001f10 0003d8 00   A  0   0  8
+  [15] .ARM.exidx        ARM_EXIDX       0000a2e8 0022e8 000008 00  AL 12   0  4
+  [16] .eh_frame         PROGBITS        0000a2f0 0022f0 000004 00   A  0   0  4
+  [17] .init_array       INIT_ARRAY      00012ee4 002ee4 000004 00  WA  0   0  4
+  [18] .fini_array       FINI_ARRAY      00012ee8 002ee8 000004 00  WA  0   0  4
+  [19] .jcr              PROGBITS        00012eec 002eec 000004 00  WA  0   0  4
+  [20] .dynamic          DYNAMIC         00012ef0 002ef0 000110 08  WA  5   0  4
+  [21] .got              PROGBITS        00013000 003000 000118 04  WA  0   0  4
+  [22] .data             PROGBITS        00013118 003118 000060 00  WA  0   0  8
+  [23] .bss              NOBITS          00013178 003178 0000b8 00  WA  0   0  8
+  [24] .ARM.attributes   ARM_ATTRIBUTES  00000000 003178 000032 00      0   0  1
+  [25] .comment          PROGBITS        00000000 0031aa 00001e 01  MS  0   0  1
+  [26] .debug_aranges    PROGBITS        00000000 0031c8 000080 00      0   0  8
+  [27] .debug_pubnames   PROGBITS        00000000 003248 0001eb 00      0   0  1
+  [28] .debug_info       PROGBITS        00000000 003433 000e11 00      0   0  1
+  [29] .debug_abbrev     PROGBITS        00000000 004244 0003d3 00      0   0  1
+  [30] .debug_line       PROGBITS        00000000 004617 0008e0 00      0   0  1
+  [31] .debug_frame      PROGBITS        00000000 004ef8 0001a0 00      0   0  4
+  [32] .debug_str        PROGBITS        00000000 005098 00050f 01  MS  0   0  1
+  [33] .debug_loc        PROGBITS        00000000 0055a7 000360 00      0   0  1
+  [34] .debug_ranges     PROGBITS        00000000 005907 000038 00      0   0  1
+  [35] .shstrtab         STRTAB          00000000 00593f 000169 00      0   0  1
+  [36] .symtab           SYMTAB          00000000 006098 000d60 10     37 115  4
+  [37] .strtab           STRTAB          00000000 006df8 000740 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  EXIDX          0x0022e8 0x0000a2e8 0x0000a2e8 0x00008 0x00008 R   0x4
+  PHDR           0x000034 0x00008034 0x00008034 0x00140 0x00140 R E 0x4
+  INTERP         0x000174 0x00008174 0x00008174 0x00013 0x00013 R   0x1
+      [Requesting program interpreter: /lib/ld-linux.so.3]
+  LOAD           0x000000 0x00008000 0x00008000 0x022f4 0x022f4 R E 0x8000
+  LOAD           0x002ee4 0x00012ee4 0x00012ee4 0x00294 0x0034c RW  0x8000
+  DYNAMIC        0x002ef0 0x00012ef0 0x00012ef0 0x00110 0x00110 RW  0x4
+  NOTE           0x000188 0x00008188 0x00008188 0x00020 0x00020 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RWE 0x4
+  GNU_RELRO      0x002ee4 0x00012ee4 0x00012ee4 0x0011c 0x0011c R   0x1
+  LOOS+5041580   0x000000 0x00000000 0x00000000 0x00000 0x00000     0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     
+   02     .interp 
+   03     .interp .note.ABI-tag .hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.exidx .eh_frame 
+   04     .init_array .fini_array .jcr .dynamic .got .data .bss 
+   05     .dynamic 
+   06     .note.ABI-tag 
+   07     
+   08     .init_array .fini_array .jcr .dynamic 
+   09     
+
+Dynamic section at offset 0x2ef0 contains 29 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libGLESv2.so]
+ 0x00000001 (NEEDED)                     Shared library: [libEGL.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdl.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000c (INIT)                       0x9050
+ 0x0000000d (FINI)                       0x9f04
+ 0x00000019 (INIT_ARRAY)                 0x12ee4
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x12ee8
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x00000004 (HASH)                       0x81a8
+ 0x00000005 (STRTAB)                     0x88e8
+ 0x00000006 (SYMTAB)                     0x83f8
+ 0x0000000a (STRSZ)                      1168 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000015 (DEBUG)                      0x0
+ 0x00000003 (PLTGOT)                     0x13000
+ 0x00000002 (PLTRELSZ)                   392 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x8ec8
+ 0x00000011 (REL)                        0x8e38
+ 0x00000012 (RELSZ)                      144 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x8e18
+ 0x6fffffff (VERNEEDNUM)                 1
+ 0x6ffffff0 (VERSYM)                     0x8d78
+ 0x00000000 (NULL)                       0x0
+
+Relocation section '.rel.dyn' at offset 0xe38 contains 18 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+000130d0  00000415 R_ARM_GLOB_DAT    00013184   g_hShaderProgram
+000130d4  00000515 R_ARM_GLOB_DAT    00013190   g_hVertexLoc
+000130d8  00000c15 R_ARM_GLOB_DAT    00000000   __gmon_start__
+000130dc  00001115 R_ARM_GLOB_DAT    00013218   eglcontext
+000130e0  00001215 R_ARM_GLOB_DAT    00013198   matModelView
+000130e4  00001315 R_ARM_GLOB_DAT    0001321c   eglNativeWindow
+000130e8  00001915 R_ARM_GLOB_DAT    00013180   quit
+000130ec  00001e15 R_ARM_GLOB_DAT    000131d8   matProj
+000130f0  00002415 R_ARM_GLOB_DAT    00013128   VertexPositions
+000130f4  00002815 R_ARM_GLOB_DAT    00013170   g_strVertexShader
+000130f8  00002c15 R_ARM_GLOB_DAT    0000937c   sighandler
+000130fc  00003215 R_ARM_GLOB_DAT    0001318c   g_hProjMatrixLoc
+00013100  00003815 R_ARM_GLOB_DAT    00013220   egldisplay
+00013104  00003a15 R_ARM_GLOB_DAT    00013174   g_strFragmentShader
+00013108  00003e15 R_ARM_GLOB_DAT    00013224   eglconfig
+0001310c  00004015 R_ARM_GLOB_DAT    00013228   eglNativeDisplayType
+00013110  00004515 R_ARM_GLOB_DAT    0001322c   eglsurface
+00013114  00004b15 R_ARM_GLOB_DAT    00013188   g_hModelViewMatrixLoc
+
+Relocation section '.rel.plt' at offset 0xec8 contains 49 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+0001300c  00000116 R_ARM_JUMP_SLOT   00009074   open
+00013010  00000216 R_ARM_JUMP_SLOT   00009080   glAttachShader
+00013014  00000316 R_ARM_JUMP_SLOT   0000908c   glEnable
+00013018  00000616 R_ARM_JUMP_SLOT   00009098   abort
+0001301c  00000716 R_ARM_JUMP_SLOT   000090a4   glBindAttribLocation
+00013020  00000816 R_ARM_JUMP_SLOT   000090b0   glGetShaderiv
+00013024  00000916 R_ARM_JUMP_SLOT   000090bc   __libc_start_main
+00013028  00000a16 R_ARM_JUMP_SLOT   000090c8   fbCreateWindow
+0001302c  00000b16 R_ARM_JUMP_SLOT   000090d4   signal
+00013030  00000c16 R_ARM_JUMP_SLOT   00000000   __gmon_start__
+00013034  00000e16 R_ARM_JUMP_SLOT   000090ec   glClear
+00013038  00001016 R_ARM_JUMP_SLOT   000090f8   __printf_chk
+0001303c  00001416 R_ARM_JUMP_SLOT   00009104   eglInitialize
+00013040  00001516 R_ARM_JUMP_SLOT   00009110   eglReleaseThread
+00013044  00001616 R_ARM_JUMP_SLOT   0000911c   glDisableVertexAttribA
+00013048  00001716 R_ARM_JUMP_SLOT   00009128   glUniformMatrix4fv
+0001304c  00001816 R_ARM_JUMP_SLOT   00009134   eglQuerySurface
+00013050  00001a16 R_ARM_JUMP_SLOT   00009140   eglDestroyContext
+00013054  00001b16 R_ARM_JUMP_SLOT   0000914c   glUseProgram
+00013058  00001c16 R_ARM_JUMP_SLOT   00009158   __assert_fail
+0001305c  00001d16 R_ARM_JUMP_SLOT   00009164   glClearColor
+00013060  00001f16 R_ARM_JUMP_SLOT   00009170   eglCreateContext
+00013064  00002016 R_ARM_JUMP_SLOT   0000917c   eglMakeCurrent
+00013068  00002116 R_ARM_JUMP_SLOT   00009188   glDeleteShader
+0001306c  00002216 R_ARM_JUMP_SLOT   00009194   eglQueryString
+00013070  00002316 R_ARM_JUMP_SLOT   000091a0   glEnableVertexAttribAr
+00013074  00002616 R_ARM_JUMP_SLOT   000091ac   eglSwapBuffers
+00013078  00002716 R_ARM_JUMP_SLOT   000091b8   glGetProgramInfoLog
+0001307c  00002a16 R_ARM_JUMP_SLOT   000091c4   glGetProgramiv
+00013080  00002b16 R_ARM_JUMP_SLOT   000091d0   eglDestroySurface
+00013084  00002d16 R_ARM_JUMP_SLOT   000091dc   glCreateShader
+00013088  00002f16 R_ARM_JUMP_SLOT   000091e8   glCreateProgram
+0001308c  00003116 R_ARM_JUMP_SLOT   000091f4   raise
+00013090  00003316 R_ARM_JUMP_SLOT   00009200   strstr
+00013094  00003516 R_ARM_JUMP_SLOT   0000920c   eglGetError
+00013098  00003716 R_ARM_JUMP_SLOT   00009218   glDrawArrays
+0001309c  00003916 R_ARM_JUMP_SLOT   00009224   glVertexAttribPointer
+000130a0  00003c16 R_ARM_JUMP_SLOT   00009230   fbGetDisplayByIndex
+000130a4  00003d16 R_ARM_JUMP_SLOT   0000923c   glLinkProgram
+000130a8  00003f16 R_ARM_JUMP_SLOT   00009248   glGetShaderInfoLog
+000130ac  00004116 R_ARM_JUMP_SLOT   00009254   glShaderSource
+000130b0  00004216 R_ARM_JUMP_SLOT   00009260   eglBindAPI
+000130b4  00004316 R_ARM_JUMP_SLOT   0000926c   glViewport
+000130b8  00004616 R_ARM_JUMP_SLOT   00009278   eglGetDisplay
+000130bc  00004716 R_ARM_JUMP_SLOT   00009284   eglTerminate
+000130c0  00004816 R_ARM_JUMP_SLOT   00009290   glGetUniformLocation
+000130c4  00004a16 R_ARM_JUMP_SLOT   0000929c   eglCreateWindowSurface
+000130c8  00004d16 R_ARM_JUMP_SLOT   000092a8   glCompileShader
+000130cc  00004e16 R_ARM_JUMP_SLOT   000092b4   eglChooseConfig
+
+Unwind table index '.ARM.exidx' at offset 0x22e8 contains 1 entries:
+
+0x92c0 <_start>: 0x1 [cantunwind]
+
+
+Symbol table '.dynsym' contains 79 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00009074     0 FUNC    GLOBAL DEFAULT  UND open@GLIBC_2.4 (2)
+     2: 00009080     0 FUNC    GLOBAL DEFAULT  UND glAttachShader
+     3: 0000908c     0 FUNC    GLOBAL DEFAULT  UND glEnable
+     4: 00013184     4 OBJECT  GLOBAL DEFAULT   23 g_hShaderProgram
+     5: 00013190     4 OBJECT  GLOBAL DEFAULT   23 g_hVertexLoc
+     6: 00009098     0 FUNC    GLOBAL DEFAULT  UND abort@GLIBC_2.4 (2)
+     7: 000090a4     0 FUNC    GLOBAL DEFAULT  UND glBindAttribLocation
+     8: 000090b0     0 FUNC    GLOBAL DEFAULT  UND glGetShaderiv
+     9: 000090bc     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@GLIBC_2.4 (2)
+    10: 000090c8     0 FUNC    GLOBAL DEFAULT  UND fbCreateWindow
+    11: 000090d4     0 FUNC    GLOBAL DEFAULT  UND signal@GLIBC_2.4 (2)
+    12: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    13: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _Jv_RegisterClasses
+    14: 000090ec     0 FUNC    GLOBAL DEFAULT  UND glClear
+    15: 00009f04     0 FUNC    GLOBAL DEFAULT   13 _fini
+    16: 000090f8     0 FUNC    GLOBAL DEFAULT  UND __printf_chk@GLIBC_2.4 (2)
+    17: 00013218     4 OBJECT  GLOBAL DEFAULT   23 eglcontext
+    18: 00013198    64 OBJECT  GLOBAL DEFAULT   23 matModelView
+    19: 0001321c     4 OBJECT  GLOBAL DEFAULT   23 eglNativeWindow
+    20: 00009104     0 FUNC    GLOBAL DEFAULT  UND eglInitialize
+    21: 00009110     0 FUNC    GLOBAL DEFAULT  UND eglReleaseThread
+    22: 0000911c     0 FUNC    GLOBAL DEFAULT  UND glDisableVertexAttribArra
+    23: 00009128     0 FUNC    GLOBAL DEFAULT  UND glUniformMatrix4fv
+    24: 00009134     0 FUNC    GLOBAL DEFAULT  UND eglQuerySurface
+    25: 00013180     4 OBJECT  GLOBAL DEFAULT   23 quit
+    26: 00009140     0 FUNC    GLOBAL DEFAULT  UND eglDestroyContext
+    27: 0000914c     0 FUNC    GLOBAL DEFAULT  UND glUseProgram
+    28: 00009158     0 FUNC    GLOBAL DEFAULT  UND __assert_fail@GLIBC_2.4 (2)
+    29: 00009164     0 FUNC    GLOBAL DEFAULT  UND glClearColor
+    30: 000131d8    64 OBJECT  GLOBAL DEFAULT   23 matProj
+    31: 00009170     0 FUNC    GLOBAL DEFAULT  UND eglCreateContext
+    32: 0000917c     0 FUNC    GLOBAL DEFAULT  UND eglMakeCurrent
+    33: 00009188     0 FUNC    GLOBAL DEFAULT  UND glDeleteShader
+    34: 00009194     0 FUNC    GLOBAL DEFAULT  UND eglQueryString
+    35: 000091a0     0 FUNC    GLOBAL DEFAULT  UND glEnableVertexAttribArray
+    36: 00013128    72 OBJECT  GLOBAL DEFAULT   22 VertexPositions
+    37: 00013178     0 NOTYPE  GLOBAL DEFAULT  ABS __bss_start__
+    38: 000091ac     0 FUNC    GLOBAL DEFAULT  UND eglSwapBuffers
+    39: 000091b8     0 FUNC    GLOBAL DEFAULT  UND glGetProgramInfoLog
+    40: 00013170     4 OBJECT  GLOBAL DEFAULT   22 g_strVertexShader
+    41: 0000a2f0     0 NOTYPE  GLOBAL DEFAULT  ABS __exidx_end
+    42: 000091c4     0 FUNC    GLOBAL DEFAULT  UND glGetProgramiv
+    43: 000091d0     0 FUNC    GLOBAL DEFAULT  UND eglDestroySurface
+    44: 0000937c    68 FUNC    GLOBAL DEFAULT   12 sighandler
+    45: 000091dc     0 FUNC    GLOBAL DEFAULT  UND glCreateShader
+    46: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS __end__
+    47: 000091e8     0 FUNC    GLOBAL DEFAULT  UND glCreateProgram
+    48: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS __bss_end__
+    49: 000091f4     0 FUNC    GLOBAL DEFAULT  UND raise@GLIBC_2.4 (2)
+    50: 0001318c     4 OBJECT  GLOBAL DEFAULT   23 g_hProjMatrixLoc
+    51: 00009200     0 FUNC    GLOBAL DEFAULT  UND strstr@GLIBC_2.4 (2)
+    52: 00013178     0 NOTYPE  GLOBAL DEFAULT  ABS __bss_start
+    53: 0000920c     0 FUNC    GLOBAL DEFAULT  UND eglGetError
+    54: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS _bss_end__
+    55: 00009218     0 FUNC    GLOBAL DEFAULT  UND glDrawArrays
+    56: 00013220     4 OBJECT  GLOBAL DEFAULT   23 egldisplay
+    57: 00009224     0 FUNC    GLOBAL DEFAULT  UND glVertexAttribPointer
+    58: 00013174     4 OBJECT  GLOBAL DEFAULT   22 g_strFragmentShader
+    59: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS _end
+    60: 00009230     0 FUNC    GLOBAL DEFAULT  UND fbGetDisplayByIndex
+    61: 0000923c     0 FUNC    GLOBAL DEFAULT  UND glLinkProgram
+    62: 00013224     4 OBJECT  GLOBAL DEFAULT   23 eglconfig
+    63: 00009248     0 FUNC    GLOBAL DEFAULT  UND glGetShaderInfoLog
+    64: 00013228     4 OBJECT  GLOBAL DEFAULT   23 eglNativeDisplayType
+    65: 00009254     0 FUNC    GLOBAL DEFAULT  UND glShaderSource
+    66: 00009260     0 FUNC    GLOBAL DEFAULT  UND eglBindAPI
+    67: 0000926c     0 FUNC    GLOBAL DEFAULT  UND glViewport
+    68: 00013178     0 NOTYPE  GLOBAL DEFAULT  ABS _edata
+    69: 0001322c     4 OBJECT  GLOBAL DEFAULT   23 eglsurface
+    70: 00009278     0 FUNC    GLOBAL DEFAULT  UND eglGetDisplay
+    71: 00009284     0 FUNC    GLOBAL DEFAULT  UND eglTerminate
+    72: 00009290     0 FUNC    GLOBAL DEFAULT  UND glGetUniformLocation
+    73: 0000a2e8     0 NOTYPE  GLOBAL DEFAULT  ABS __exidx_start
+    74: 0000929c     0 FUNC    GLOBAL DEFAULT  UND eglCreateWindowSurface
+    75: 00013188     4 OBJECT  GLOBAL DEFAULT   23 g_hModelViewMatrixLoc
+    76: 00009050     0 FUNC    GLOBAL DEFAULT   10 _init
+    77: 000092a8     0 FUNC    GLOBAL DEFAULT  UND glCompileShader
+    78: 000092b4     0 FUNC    GLOBAL DEFAULT  UND eglChooseConfig
+
+Symbol table '.symtab' contains 214 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00008174     0 SECTION LOCAL  DEFAULT    1 
+     2: 00008188     0 SECTION LOCAL  DEFAULT    2 
+     3: 000081a8     0 SECTION LOCAL  DEFAULT    3 
+     4: 000083f8     0 SECTION LOCAL  DEFAULT    4 
+     5: 000088e8     0 SECTION LOCAL  DEFAULT    5 
+     6: 00008d78     0 SECTION LOCAL  DEFAULT    6 
+     7: 00008e18     0 SECTION LOCAL  DEFAULT    7 
+     8: 00008e38     0 SECTION LOCAL  DEFAULT    8 
+     9: 00008ec8     0 SECTION LOCAL  DEFAULT    9 
+    10: 00009050     0 SECTION LOCAL  DEFAULT   10 
+    11: 00009060     0 SECTION LOCAL  DEFAULT   11 
+    12: 000092c0     0 SECTION LOCAL  DEFAULT   12 
+    13: 00009f04     0 SECTION LOCAL  DEFAULT   13 
+    14: 00009f10     0 SECTION LOCAL  DEFAULT   14 
+    15: 0000a2e8     0 SECTION LOCAL  DEFAULT   15 
+    16: 0000a2f0     0 SECTION LOCAL  DEFAULT   16 
+    17: 00012ee4     0 SECTION LOCAL  DEFAULT   17 
+    18: 00012ee8     0 SECTION LOCAL  DEFAULT   18 
+    19: 00012eec     0 SECTION LOCAL  DEFAULT   19 
+    20: 00012ef0     0 SECTION LOCAL  DEFAULT   20 
+    21: 00013000     0 SECTION LOCAL  DEFAULT   21 
+    22: 00013118     0 SECTION LOCAL  DEFAULT   22 
+    23: 00013178     0 SECTION LOCAL  DEFAULT   23 
+    24: 00000000     0 SECTION LOCAL  DEFAULT   24 
+    25: 00000000     0 SECTION LOCAL  DEFAULT   25 
+    26: 00000000     0 SECTION LOCAL  DEFAULT   26 
+    27: 00000000     0 SECTION LOCAL  DEFAULT   27 
+    28: 00000000     0 SECTION LOCAL  DEFAULT   28 
+    29: 00000000     0 SECTION LOCAL  DEFAULT   29 
+    30: 00000000     0 SECTION LOCAL  DEFAULT   30 
+    31: 00000000     0 SECTION LOCAL  DEFAULT   31 
+    32: 00000000     0 SECTION LOCAL  DEFAULT   32 
+    33: 00000000     0 SECTION LOCAL  DEFAULT   33 
+    34: 00000000     0 SECTION LOCAL  DEFAULT   34 
+    35: 00000000     0 FILE    LOCAL  DEFAULT  ABS initfini.c
+    36: 000092fc     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    37: 000092fc     0 FUNC    LOCAL  DEFAULT   12 call_gmon_start
+    38: 00009320     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    39: 00009050     0 NOTYPE  LOCAL  DEFAULT   10 $a
+    40: 00009f04     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    41: 00008188     0 NOTYPE  LOCAL  DEFAULT    2 $d
+    42: 000092c0     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    43: 0000a2e8     0 NOTYPE  LOCAL  DEFAULT   15 $d
+    44: 000092f0     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    45: 00000000     0 FILE    LOCAL  DEFAULT  ABS init.c
+    46: 00009f10     0 NOTYPE  LOCAL  DEFAULT   14 $d
+    47: 00000000     0 FILE    LOCAL  DEFAULT  ABS initfini.c
+    48: 00009058     0 NOTYPE  LOCAL  DEFAULT   10 $a
+    49: 00009f08     0 NOTYPE  LOCAL  DEFAULT   13 $a
+    50: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    51: 00012eec     0 OBJECT  LOCAL  DEFAULT   19 __JCR_LIST__
+    52: 0001311c     0 NOTYPE  LOCAL  DEFAULT   22 $d
+    53: 00009328     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    54: 00009328     0 FUNC    LOCAL  DEFAULT   12 __do_global_dtors_aux
+    55: 00009340     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    56: 00013178     1 OBJECT  LOCAL  DEFAULT   23 completed.6598
+    57: 00012ee8     0 NOTYPE  LOCAL  DEFAULT   18 $d
+    58: 00012ee8     0 OBJECT  LOCAL  DEFAULT   18 __do_global_dtors_aux_fin
+    59: 00009344     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    60: 00009344     0 FUNC    LOCAL  DEFAULT   12 frame_dummy
+    61: 00009370     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    62: 00012ee4     0 NOTYPE  LOCAL  DEFAULT   17 $d
+    63: 00012ee4     0 OBJECT  LOCAL  DEFAULT   17 __frame_dummy_init_array_
+    64: 00013178     0 NOTYPE  LOCAL  DEFAULT   23 $d
+    65: 00000000     0 FILE    LOCAL  DEFAULT  ABS SimpleTriangle.c
+    66: 00009378     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    67: 000093b4     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    68: 000093c0     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    69: 000094a8     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    70: 000094d4     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    71: 00009544     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    72: 00009554     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    73: 00009944     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    74: 000099b0     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    75: 00009ae4     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    76: 00009b10     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    77: 00009c18     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    78: 00009f18     0 NOTYPE  LOCAL  DEFAULT   14 $d
+    79: 00009f18     7 OBJECT  LOCAL  DEFAULT   14 __PRETTY_FUNCTION__.7134
+    80: 00009f20     5 OBJECT  LOCAL  DEFAULT   14 __PRETTY_FUNCTION__.7059
+    81: 00009f28    44 OBJECT  LOCAL  DEFAULT   14 s_configAttribs.7057
+    82: 00009f58    12 OBJECT  LOCAL  DEFAULT   14 C.34.7093
+    83: 00009f68     5 OBJECT  LOCAL  DEFAULT   14 __PRETTY_FUNCTION__.7154
+    84: 00013170     0 NOTYPE  LOCAL  DEFAULT   22 $d
+    85: 00013120     0 NOTYPE  LOCAL  DEFAULT   22 $d
+    86: 00009f70     0 NOTYPE  LOCAL  DEFAULT   14 $d
+    87: 00013180     0 NOTYPE  LOCAL  DEFAULT   23 $d
+    88: 00000010     0 NOTYPE  LOCAL  DEFAULT   31 $d
+    89: 00000000     0 FILE    LOCAL  DEFAULT  ABS fsl_egl.c
+    90: 00009c44     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    91: 00009d08     0 NOTYPE  LOCAL  DEFAULT   12 $d
+    92: 00009d24     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    93: 0000a29c     0 NOTYPE  LOCAL  DEFAULT   14 $d
+    94: 00000120     0 NOTYPE  LOCAL  DEFAULT   31 $d
+    95: 00009d38     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    96: 00000184     0 NOTYPE  LOCAL  DEFAULT   31 $d
+    97: 0000004c     0 NOTYPE  LOCAL  DEFAULT   26 $d
+    98: 00009e7c     0 NOTYPE  LOCAL  DEFAULT   12 $a
+    99: 0000006c     0 NOTYPE  LOCAL  DEFAULT   26 $d
+   100: 00000000     0 FILE    LOCAL  DEFAULT  ABS elf-init.c
+   101: 00009e90     0 NOTYPE  LOCAL  DEFAULT   12 $a
+   102: 00009ef8     0 NOTYPE  LOCAL  DEFAULT   12 $d
+   103: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+   104: 0000a2f0     0 NOTYPE  LOCAL  DEFAULT   16 $d
+   105: 0000a2f0     0 OBJECT  LOCAL  DEFAULT   16 __FRAME_END__
+   106: 00012eec     0 NOTYPE  LOCAL  DEFAULT   19 $d
+   107: 00012eec     0 OBJECT  LOCAL  DEFAULT   19 __JCR_END__
+   108: 00013000     0 OBJECT  LOCAL  HIDDEN    21 _GLOBAL_OFFSET_TABLE_
+   109: 00012ee8     0 NOTYPE  LOCAL  HIDDEN    17 __init_array_end
+   110: 00012ee4     0 NOTYPE  LOCAL  HIDDEN    17 __init_array_start
+   111: 00012ef0     0 OBJECT  LOCAL  HIDDEN    20 _DYNAMIC
+   112: 00009060     0 NOTYPE  LOCAL  DEFAULT   11 $a
+   113: 00009070     0 NOTYPE  LOCAL  DEFAULT   11 $d
+   114: 00009074     0 NOTYPE  LOCAL  DEFAULT   11 $a
+   115: 00013118     0 NOTYPE  WEAK   DEFAULT   22 data_start
+   116: 00009074     0 FUNC    GLOBAL DEFAULT  UND open@@GLIBC_2.4
+   117: 00009080     0 FUNC    GLOBAL DEFAULT  UND glAttachShader
+   118: 0000908c     0 FUNC    GLOBAL DEFAULT  UND glEnable
+   119: 00013184     4 OBJECT  GLOBAL DEFAULT   23 g_hShaderProgram
+   120: 00013190     4 OBJECT  GLOBAL DEFAULT   23 g_hVertexLoc
+   121: 00009098     0 FUNC    GLOBAL DEFAULT  UND abort@@GLIBC_2.4
+   122: 00009e7c    20 FUNC    GLOBAL HIDDEN    12 __div0
+   123: 000090a4     0 FUNC    GLOBAL DEFAULT  UND glBindAttribLocation
+   124: 00009e90     4 FUNC    GLOBAL DEFAULT   12 __libc_csu_fini
+   125: 000092c0     0 FUNC    GLOBAL DEFAULT   12 _start
+   126: 000090b0     0 FUNC    GLOBAL DEFAULT  UND glGetShaderiv
+   127: 000090bc     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@@GLIBC_
+   128: 000090c8     0 FUNC    GLOBAL DEFAULT  UND fbCreateWindow
+   129: 000090d4     0 FUNC    GLOBAL DEFAULT  UND signal@@GLIBC_2.4
+   130: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   131: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _Jv_RegisterClasses
+   132: 000090ec     0 FUNC    GLOBAL DEFAULT  UND glClear
+   133: 00009f04     0 FUNC    GLOBAL DEFAULT   13 _fini
+   134: 000090f8     0 FUNC    GLOBAL DEFAULT  UND __printf_chk@@GLIBC_2.4
+   135: 00013218     4 OBJECT  GLOBAL DEFAULT   23 eglcontext
+   136: 00013198    64 OBJECT  GLOBAL DEFAULT   23 matModelView
+   137: 0001321c     4 OBJECT  GLOBAL DEFAULT   23 eglNativeWindow
+   138: 00009104     0 FUNC    GLOBAL DEFAULT  UND eglInitialize
+   139: 00009110     0 FUNC    GLOBAL DEFAULT  UND eglReleaseThread
+   140: 0000911c     0 FUNC    GLOBAL DEFAULT  UND glDisableVertexAttribArra
+   141: 00009128     0 FUNC    GLOBAL DEFAULT  UND glUniformMatrix4fv
+   142: 00009134     0 FUNC    GLOBAL DEFAULT  UND eglQuerySurface
+   143: 00013180     4 OBJECT  GLOBAL DEFAULT   23 quit
+   144: 00009140     0 FUNC    GLOBAL DEFAULT  UND eglDestroyContext
+   145: 0000914c     0 FUNC    GLOBAL DEFAULT  UND glUseProgram
+   146: 00009158     0 FUNC    GLOBAL DEFAULT  UND __assert_fail@@GLIBC_2.4
+   147: 00009164     0 FUNC    GLOBAL DEFAULT  UND glClearColor
+   148: 000131d8    64 OBJECT  GLOBAL DEFAULT   23 matProj
+   149: 00009170     0 FUNC    GLOBAL DEFAULT  UND eglCreateContext
+   150: 0000917c     0 FUNC    GLOBAL DEFAULT  UND eglMakeCurrent
+   151: 00009f10     4 OBJECT  GLOBAL DEFAULT   14 _IO_stdin_used
+   152: 00009188     0 FUNC    GLOBAL DEFAULT  UND glDeleteShader
+   153: 00009194     0 FUNC    GLOBAL DEFAULT  UND eglQueryString
+   154: 000091a0     0 FUNC    GLOBAL DEFAULT  UND glEnableVertexAttribArray
+   155: 00013118     0 NOTYPE  GLOBAL DEFAULT   22 __data_start
+   156: 00013128    72 OBJECT  GLOBAL DEFAULT   22 VertexPositions
+   157: 00013178     0 NOTYPE  GLOBAL DEFAULT  ABS __bss_start__
+   158: 000091ac     0 FUNC    GLOBAL DEFAULT  UND eglSwapBuffers
+   159: 000091b8     0 FUNC    GLOBAL DEFAULT  UND glGetProgramInfoLog
+   160: 00009d24    20 FUNC    GLOBAL DEFAULT   12 fsl_getNativeDisplay
+   161: 00013170     4 OBJECT  GLOBAL DEFAULT   22 g_strVertexShader
+   162: 0000a2f0     0 NOTYPE  GLOBAL DEFAULT  ABS __exidx_end
+   163: 000091c4     0 FUNC    GLOBAL DEFAULT  UND glGetProgramiv
+   164: 000091d0     0 FUNC    GLOBAL DEFAULT  UND eglDestroySurface
+   165: 0000937c    68 FUNC    GLOBAL DEFAULT   12 sighandler
+   166: 00009d38   300 FUNC    GLOBAL HIDDEN    12 __divsi3
+   167: 000091dc     0 FUNC    GLOBAL DEFAULT  UND glCreateShader
+   168: 0001311c     0 OBJECT  GLOBAL HIDDEN    22 __dso_handle
+   169: 000094d4   128 FUNC    GLOBAL DEFAULT   12 resize
+   170: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS __end__
+   171: 00009e94   112 FUNC    GLOBAL DEFAULT   12 __libc_csu_init
+   172: 000091e8     0 FUNC    GLOBAL DEFAULT  UND glCreateProgram
+   173: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS __bss_end__
+   174: 000091f4     0 FUNC    GLOBAL DEFAULT  UND raise@@GLIBC_2.4
+   175: 0001318c     4 OBJECT  GLOBAL DEFAULT   23 g_hProjMatrixLoc
+   176: 00009200     0 FUNC    GLOBAL DEFAULT  UND strstr@@GLIBC_2.4
+   177: 00013178     0 NOTYPE  GLOBAL DEFAULT  ABS __bss_start
+   178: 0000920c     0 FUNC    GLOBAL DEFAULT  UND eglGetError
+   179: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS _bss_end__
+   180: 00009218     0 FUNC    GLOBAL DEFAULT  UND glDrawArrays
+   181: 00009c48   220 FUNC    GLOBAL DEFAULT   12 fsl_createwindow
+   182: 00013220     4 OBJECT  GLOBAL DEFAULT   23 egldisplay
+   183: 00009e64    24 FUNC    GLOBAL HIDDEN    12 __aeabi_idivmod
+   184: 00009224     0 FUNC    GLOBAL DEFAULT  UND glVertexAttribPointer
+   185: 00013174     4 OBJECT  GLOBAL DEFAULT   22 g_strFragmentShader
+   186: 00013230     0 NOTYPE  GLOBAL DEFAULT  ABS _end
+   187: 00009230     0 FUNC    GLOBAL DEFAULT  UND fbGetDisplayByIndex
+   188: 0000923c     0 FUNC    GLOBAL DEFAULT  UND glLinkProgram
+   189: 00013224     4 OBJECT  GLOBAL DEFAULT   23 eglconfig
+   190: 00013120     4 OBJECT  GLOBAL DEFAULT   22 g_hColorLoc
+   191: 00009248     0 FUNC    GLOBAL DEFAULT  UND glGetShaderInfoLog
+   192: 00009378     4 FUNC    GLOBAL DEFAULT   12 Cleanup
+   193: 00013228     4 OBJECT  GLOBAL DEFAULT   23 eglNativeDisplayType
+   194: 00009254     0 FUNC    GLOBAL DEFAULT  UND glShaderSource
+   195: 00009260     0 FUNC    GLOBAL DEFAULT  UND eglBindAPI
+   196: 0000926c     0 FUNC    GLOBAL DEFAULT  UND glViewport
+   197: 00009c44     4 FUNC    GLOBAL DEFAULT   12 fsl_destroywindow
+   198: 00009554  1116 FUNC    GLOBAL DEFAULT   12 init
+   199: 00013178     0 NOTYPE  GLOBAL DEFAULT  ABS _edata
+   200: 0001322c     4 OBJECT  GLOBAL DEFAULT   23 eglsurface
+   201: 00009278     0 FUNC    GLOBAL DEFAULT  UND eglGetDisplay
+   202: 000093c0   276 FUNC    GLOBAL DEFAULT   12 deinit
+   203: 00009284     0 FUNC    GLOBAL DEFAULT  UND eglTerminate
+   204: 00009290     0 FUNC    GLOBAL DEFAULT  UND glGetUniformLocation
+   205: 0000a2e8     0 NOTYPE  GLOBAL DEFAULT  ABS __exidx_start
+   206: 00009d38     0 FUNC    GLOBAL HIDDEN    12 __aeabi_idiv
+   207: 0000929c     0 FUNC    GLOBAL DEFAULT  UND eglCreateWindowSurface
+   208: 00013188     4 OBJECT  GLOBAL DEFAULT   23 g_hModelViewMatrixLoc
+   209: 00009b10   308 FUNC    GLOBAL DEFAULT   12 main
+   210: 00009050     0 FUNC    GLOBAL DEFAULT   10 _init
+   211: 000092a8     0 FUNC    GLOBAL DEFAULT  UND glCompileShader
+   212: 000092b4     0 FUNC    GLOBAL DEFAULT  UND eglChooseConfig
+   213: 000099b0   352 FUNC    GLOBAL DEFAULT   12 render
+
+Histogram for bucket list length (total of 67 buckets):
+ Length  Number     % of total  Coverage
+      0  19         ( 28.4%)
+      1  23         ( 34.3%)     29.5%
+      2  21         ( 31.3%)     83.3%
+      3  3          (  4.5%)     94.9%
+      4  1          (  1.5%)    100.0%
+
+Version symbols section '.gnu.version' contains 79 entries:
+ Addr: 0000000000008d78  Offset: 0x000d78  Link: 4 (.dynsym)
+  000:   0 (*local*)       2 (GLIBC_2.4)     0 (*local*)       0 (*local*)    
+  004:   1 (*global*)      1 (*global*)      2 (GLIBC_2.4)     0 (*local*)    
+  008:   0 (*local*)       2 (GLIBC_2.4)     0 (*local*)       2 (GLIBC_2.4)  
+  00c:   0 (*local*)       0 (*local*)       0 (*local*)       1 (*global*)   
+  010:   2 (GLIBC_2.4)     1 (*global*)      1 (*global*)      1 (*global*)   
+  014:   0 (*local*)       0 (*local*)       0 (*local*)       0 (*local*)    
+  018:   0 (*local*)       1 (*global*)      0 (*local*)       0 (*local*)    
+  01c:   2 (GLIBC_2.4)     0 (*local*)       1 (*global*)      0 (*local*)    
+  020:   0 (*local*)       0 (*local*)       0 (*local*)       0 (*local*)    
+  024:   1 (*global*)      1 (*global*)      0 (*local*)       0 (*local*)    
+  028:   1 (*global*)      1 (*global*)      0 (*local*)       0 (*local*)    
+  02c:   1 (*global*)      0 (*local*)       1 (*global*)      0 (*local*)    
+  030:   1 (*global*)      2 (GLIBC_2.4)     1 (*global*)      2 (GLIBC_2.4)  
+  034:   1 (*global*)      0 (*local*)       1 (*global*)      0 (*local*)    
+  038:   1 (*global*)      0 (*local*)       1 (*global*)      1 (*global*)   
+  03c:   0 (*local*)       0 (*local*)       1 (*global*)      0 (*local*)    
+  040:   1 (*global*)      0 (*local*)       0 (*local*)       0 (*local*)    
+  044:   1 (*global*)      1 (*global*)      0 (*local*)       0 (*local*)    
+  048:   0 (*local*)       1 (*global*)      0 (*local*)       1 (*global*)   
+  04c:   1 (*global*)      0 (*local*)       0 (*local*)    
+
+Version needs section '.gnu.version_r' contains 1 entries:
+ Addr: 0x0000000000008e18  Offset: 0x000e18  Link: 5 (.dynstr)
+  000000: Version: 1  File: libc.so.6  Cnt: 1
+  0x0010:   Name: GLIBC_2.4  Flags: none  Version: 2
+
+Notes at offset 0x00000188 with length 0x00000020:
+  Owner                 Data size	Description
+  GNU                  0x00000010	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 2.6.26
+Attribute Section: aeabi
+File Attributes
+  Tag_CPU_name: "ARM9TDMI"
+  Tag_CPU_arch: v4T
+  Tag_ARM_ISA_use: Yes
+  Tag_THUMB_ISA_use: Thumb-1
+  Tag_FP_arch: VFPv3
+  Tag_Advanced_SIMD_arch: NEONv1
+  Tag_ABI_PCS_wchar_t: 4
+  Tag_ABI_FP_denormal: Needed
+  Tag_ABI_FP_exceptions: Needed
+  Tag_ABI_FP_number_model: IEEE 754
+  Tag_ABI_align_needed: 8-byte
+  Tag_ABI_enum_size: int
+  Tag_ABI_HardFP_use: SP and DP

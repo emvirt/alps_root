@@ -1,0 +1,11 @@
+// Generated from HI_Cluster_v3.6.2.00000
+// by ASCIIExporter
+// date: 20.08.2013   at: 07:35:28
+
+// GUIDE model version:  5.4.2.54367
+
+include"settings.atfsm"
+include"events.atfsm"
+include"input.atfsm"
+include"state_machine.atfsm"
+

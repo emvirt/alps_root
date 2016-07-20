@@ -1,0 +1,98 @@
+1. unmount sdcard
+	$sudo umount /dev/sdb
+
+2. Partition create
+	$ sudo fdisk /dev/sdb
+		u		[switch the unit to sectors instead of cylinders]
+		d		[repeat this until no partition is reported by the 'p' command ]
+		n		[create a new partition]
+		p		[create a primary partition]
+		1		[the first partition]
+		16384		[starting at offset sector #16384, i.e. 8MB, which leaves enough space for the kernel, the boot loader and its configuration data]
+		<enter>		[using the default value will create a partition that spans to the last sector
+		w		[ this writes the partition table to the medium and fdisk exits]
+
+3. ext3로 파일시스템 format 구성
+	$ sudo mkfs.ext3 /dev/sdb1
+
+4. 생성된 파티션을 마운트 포인트에 mount
+	$ sudo mount /dev/sdb1 /home/user/mountpoint
+
+5. Root FS 압축해제
+	$ cd /home/user/rootfs
+	1) Secure world File System
+		$ tar xvzf secure_rootfs.tar.gz
+	2) Normal world File System
+		$ tar xvzf secure_rootfs.tar.gz
+
+6. 압축해제 한 Root FS를 mountpoint 밑으로 복사
+	$ cd /home/user/rootfs/secure_rootfs or $ cd /home/user/rootfs/normal_rootfs
+	$ sudo cp -a * /home/user/mountpoint
+	$ sudo umount /home/user/mountpoint
+
+7. Image 굽기
+	1) Secure world
+		- 부트로더_mon
+			$ sudo dd if=u-boot-mx6q-sabreauto.bin of=/dev/sdb bs=512 seek=2 skip=2 conv=fsync
+		- 리눅스
+			$ sudo dd if=uImage of=/dev/sdb bs=512 seek=2048 conv=fsync
+		- 부트로더_secure
+			$ sudo dd if=u-boot-secure.bin of=/dev/sdb bs=512 seek=10752 conv=fsync
+		- 모니터
+			$ sudo dd if=safeg.bin of=/dev/sdb bs=512 seek=12288 conv=fsync
+	2) Normal world
+		- 부트로더_normal
+			$ sudo dd if=u-boot-normal.bin of=/dev/sdb bs=512 seek=2 skip=2 conv=fsync
+		- 리눅스_normal
+			$ sudo dd if=uImage of=/dev/sdb bs=512 seek=2048 conv=fsync
+
+8. Secure boot loader 환경변수 설정
+	loadaddr=0x10800000
+	bootargs_mmc=setenv bootargs ${bootargs} root=/dev/mmcblk0p1 rootwait
+	bootcmd_mmc=run bootargs_base bootargs_mmc; mmc dev 2; mmc read ${loadaddr} 0x800 0x2000; bootm
+	bootcmd=run bootcmd_mmc
+
+	bootargs_base=setenv bootargs console=ttymxc3,115200 uart3 can0 video=mxcfb0:dev=hdmi,1920x1080@60,if=RGB24
+
+	load_uboot=mmc dev 2; mmc read 0x57800000 0x2a00 0x200
+	load_ns_uboot=mmc dev 0; mmc read 0x67800000 0x2 0x200
+	load_linux=mmc dev 0; mmc read 0x30800000 0x800 0x2000
+	load_bins=run load_mon load_uboot load_ns_uboot load_linux
+	load_mon=mmc dev 2; mmc read 0x7ff00000 0x3000 0x100
+
+	start_alps=run load_bins; go 0x7ff11480
+
+9. 부팅
+	(첫번째 콘솔)
+	power on
+	-> 부트로더_mon 시작
+	-> run start_alps 입력
+	-> 모니터, 부트로더_secure, 리눅스 순으로 이어서 시작됨
+	-> secure world 부팅 완료
+	-> ./1_normal_boot 입력
+
+	(두번째 콘솔)
+	-> 부트로더_normal 시작됨
+	-> bootm 0x30800000 입력
+	-> normal world 부팅 완료
+	-> ./1_switch_to_secure 입력
+
+10. 어플리케이션 실행
+	1) Cluster Application 실행
+		- 첫번째 콘솔에서 ./2_start_cluster 입력
+	2) Stub 실행
+		- 첫번째 콘솔에서 ./3_start_stub 입력
+	3) 브라우저 실행
+		- 두번째 콘솔에서 ./2_start_browser 입력
+
+11. 커널 오류 발생
+	- 두번째 콘솔에서 ./3_go_crash 입력
+
+******************************************************
+
+* stub binary 변경
+	- secure world의 root 파일 시스템의 /root/ 안에 copy
+
+* wrapper binary 변경
+	- normal world의 root 파일 시스템의 /usr/lib 안에 copy
+	- /usr/lib 안에 있는 libEGL.so, libEGL.so.1, libGLESv2.so, libGLESv2.so.1의 링크를 wrapper binary(libwrapglLib.so)를 가리키도록 수정

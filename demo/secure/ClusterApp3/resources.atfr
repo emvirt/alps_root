@@ -1,0 +1,3098 @@
+// GUIDE model version:  5.4.2.54367
+
+resource font_0 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 50;
+}
+resource font_1 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 22;
+}
+resource font_10 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 20;
+}
+resource font_11 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 26;
+}
+resource font_12 font
+{
+    path : "fonts/NewHDR.ttf";
+    size : 27;
+}
+resource font_13 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 32;
+}
+resource font_14 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 35;
+}
+resource font_15 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 27;
+}
+resource font_16 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 29;
+}
+resource font_17 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 24;
+}
+resource font_18 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 27;
+}
+resource font_19 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 31;
+}
+resource font_2 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 42;
+}
+resource font_20 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 24;
+}
+resource font_21 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 25;
+}
+resource font_22 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 15;
+}
+resource font_23 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 19;
+}
+resource font_24 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 20;
+}
+resource font_25 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 16;
+}
+resource font_26 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 35;
+}
+resource font_27 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 25;
+}
+resource font_28 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 29;
+}
+resource font_29 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 23;
+}
+resource font_3 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 30;
+}
+resource font_30 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 38;
+}
+resource font_31 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 26;
+}
+resource font_32 font
+{
+    path : "fonts/NewHDR.ttf";
+    size : 33;
+}
+resource font_33 font
+{
+    path : "fonts/NewHDR.ttf";
+    size : 60;
+}
+resource font_34 font
+{
+    path : "fonts/NewHDR.ttf";
+    size : 80;
+}
+resource font_35 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 33;
+}
+resource font_36 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 31;
+}
+resource font_37 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 32;
+}
+resource font_38 font
+{
+    path : "fonts/NewHDR.ttf";
+    size : 30;
+}
+resource font_39 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 28;
+}
+resource font_4 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 24;
+}
+resource font_40 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 18;
+}
+resource font_41 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 21;
+}
+resource font_42 font
+{
+    path : "fonts/25-1_CubeB_Cluster_comp(NoneHints).ttf";
+    size : 33;
+}
+resource font_43 font
+{
+    path : "fonts/NewHDR.ttf";
+    size : 28;
+}
+resource font_44 font
+{
+    path : "fonts/DFHEI5.TTF";
+    size : 35;
+}
+resource font_45 font
+{
+    path : "fonts/DFHEI5.TTF";
+    size : 28;
+}
+resource font_46 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 27;
+}
+resource font_47 font
+{
+    path : "fonts/26-1_CubeR_Cluster_comp(NoneHints).ttf";
+    size : 28;
+}
+resource font_5 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 35;
+}
+resource font_6 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 90;
+}
+resource font_7 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 28;
+}
+resource font_8 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 110;
+}
+resource font_9 font
+{
+    path : "fonts/NewHDB.ttf";
+    size : 40;
+}
+resource _internal_79176406744709559_images_comfort_transition_comfort_Right_Circle_exp_tr_rightcircle_00_png image
+{
+    path : ".internal/79176406744709559/images/comfort/transition_comfort/Right Circle/exp_tr_rightcircle_00.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_49h_kor_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_49h_kor.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_12_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_12.png";
+}
+resource _UM_Images_SBM_SBM_12_Fuse_png image
+{
+    path : "/UM_Images/SBM/SBM_12_Fuse.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_2Dh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_2Dh.png";
+}
+resource _UM_Images_TBT_TBT_Loading_12_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_12.png";
+}
+resource _UM_Images_SPAS_Temp_2_Select_png image
+{
+    path : "/UM_Images/SPAS/Temp_2_Select.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_breakoff_02_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_breakoff_02.png";
+}
+resource _internal_1202198601852239055_images_skin_dark_lightEllipseW_png image
+{
+    path : ".internal/1202198601852239055/images/skin_dark/lightEllipseW.png";
+}
+resource _UM_Images_TBT_TBT_15_Exit_R_Direction_Center_png image
+{
+    path : "/UM_Images/TBT/TBT_15_Exit_R_Direction_Center.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_10_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_10.png";
+}
+resource _UM_Images_TBT_TBT_17_Exit_Combination_R_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_17_Exit_Combination_R_Road.png";
+}
+resource _UM_Images_SPAS_SPAS_08_Vertical_Parked_Car_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_08_Vertical_Parked_Car_R.png";
+}
+resource _UM_Images_TBT_TBT_17_Exit_Combination_R_Direction_RightCenter_png image
+{
+    path : "/UM_Images/TBT/TBT_17_Exit_Combination_R_Direction_RightCenter.png";
+}
+resource _UM_Images_TBT_TBT_Loading_14_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_14.png";
+}
+resource _UM_Images_Rheostat_Rheostat_Graphics_Icon_png image
+{
+    path : "/UM_Images/Rheostat/Rheostat_Graphics_Icon.png";
+}
+resource _HI_images_ZEN_Group_7_png image
+{
+    path : "/HI_images/ZEN/Group 7.png";
+}
+resource _UM_Images_SBM_SMK_Alert_Icon_png image
+{
+    path : "/UM_Images/SBM/SMK_Alert_Icon.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_Ah_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_Ah.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_01_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_01.png";
+}
+resource _UM_Images_AV_AV_MyMusic_png image
+{
+    path : "/UM_Images/AV/AV_MyMusic.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_1Eh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_1Eh.png";
+}
+resource _UM_Images_SPAS_SPAS_Parallel_Arrow_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parallel_Arrow_R.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_15h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_15h.png";
+}
+resource HI_images_mode_A_eco_00_gui_gauge_eco_png image
+{
+    path : "HI_images/mode_A/eco/00_gui_gauge_eco.png";
+}
+resource _UM_Images_Warning_Warning_14_Headlamp_LED_Check_png image
+{
+    path : "/UM_Images/Warning/Warning_14_Headlamp_LED_Check.png";
+}
+resource _UM_Images_SBM_SBM_07_Boots_png image
+{
+    path : "/UM_Images/SBM/SBM_07_Boots.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_breakoff_04_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_breakoff_04.png";
+}
+resource _UM_Images_TBT_TBT_25_Overpass_R_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_25_Overpass_R_Road.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_06_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_06.png";
+}
+resource HI_images_mode_C_Common_menu_icon01_nor_png image
+{
+    path : "HI_images/mode_C/Common/menu_icon01_nor.png";
+}
+resource _UM_Images_AV_AV_Loading_11_png image
+{
+    path : "/UM_Images/AV/AV_Loading_11.png";
+}
+resource HI_images_welcome_welcome_029_png image
+{
+    path : "HI_images/welcome/welcome_029.png";
+}
+resource _UM_Images_SPAS_SPAS_15_Shift_D_png image
+{
+    path : "/UM_Images/SPAS/SPAS_15_Shift_D.png";
+}
+resource _UM_Images_SPAS_SPAS_Parallel_Arrow_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parallel_Arrow_L.png";
+}
+resource UM_Images_TPMS_TPMS_02_Warning_FL_png image
+{
+    path : "UM_Images/TPMS/TPMS_02_Warning_FL.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_12_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_12.png";
+}
+resource _UM_Images_ISG_ISG_01_AutoStop_Activation_png image
+{
+    path : "/UM_Images/ISG/ISG_01_AutoStop_Activation.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_05_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_05.png";
+}
+resource HI_images_welcome_welcome_041_png image
+{
+    path : "HI_images/welcome/welcome_041.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_29h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_29h.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_19h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_19h.png";
+}
+resource _UM_Images_TBT_TBT_27_Underpass_R_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_27_Underpass_R_Left.png";
+}
+resource HI_images_opening_logo_png image
+{
+    path : "HI_images/opening/logo.png";
+}
+resource HI_images_mode_A_Common_00_gui_speedometer_gradation_gray_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_speedometer_gradation_gray.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_5h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_5h.png";
+}
+resource HI_images_mode_B_comfort_graph_speedo_comfort_R_png image
+{
+    path : "HI_images/mode_B/comfort/graph_speedo_comfort_R.png";
+}
+resource _UM_Images_Warning_Warning_01_Fuel_Cap_Open_png image
+{
+    path : "/UM_Images/Warning/Warning_01_Fuel_Cap_Open.png";
+}
+resource _UM_Images_SBM_SBM_04_Unlock_Icon_png image
+{
+    path : "/UM_Images/SBM/SBM_04_Unlock_Icon.png";
+}
+resource _UM_Images_USM_USM_Popup_png image
+{
+    path : "/UM_Images/USM/USM_Popup.png";
+}
+resource HI_images_mode_B_Common_00_gui_eco_prnd_d_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_eco_prnd_d.png";
+}
+resource HI_images_mode_B_Common_00_gui_comfort_prnd_d_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_comfort_prnd_d.png";
+}
+resource HI_images_mode_C_eco_needle_Graph_Speedometer_speedometer_eco_00_png image
+{
+    path : "HI_images/mode_C/eco/needle Graph/Speedometer/speedometer_eco_00.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_03_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_03.png";
+}
+resource _UM_Images_SAS_SAS_02_LeftArrow_png image
+{
+    path : "/UM_Images/SAS/SAS_02_LeftArrow.png";
+}
+resource HI_images_mode_B_Common_00_gui_comfort_prnd_n_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_comfort_prnd_n.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_15_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_15.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D3_Brake_On_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D3_Brake_On.png";
+}
+resource _UM_Images_SPAS_SPAS_ExitMode_Radar_Lv1_png image
+{
+    path : "/UM_Images/SPAS/SPAS_ExitMode_Radar_Lv1.png";
+}
+resource UM_Images_USM_new_checkbox_png image
+{
+    path : "UM_Images/USM/new_checkbox.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_01_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_01.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_15_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_15.png";
+}
+resource _UM_Images_TBT_TBT_28_Underpass_L_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_28_Underpass_L_Road.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Loop_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Loop.png";
+}
+resource _UM_Images_Bottom_Ice_Warning_png image
+{
+    path : "/UM_Images/Bottom/Ice_Warning.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_18h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_18h.png";
+}
+resource HI_images_welcome_welcome_018_png image
+{
+    path : "HI_images/welcome/welcome_018.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Door_RR_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Door_RR.png";
+}
+resource HI_images_welcome_welcome_000_png image
+{
+    path : "HI_images/welcome/welcome_000.png";
+}
+resource _UM_Images_TBT_TBT_19_Fork2_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_19_Fork2_Left.png";
+}
+resource HI_images_mode_A_Common_00_gui_prnd_d_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_prnd_d.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_13_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_13.png";
+}
+resource HI_images_welcome_welcome_007_png image
+{
+    path : "HI_images/welcome/welcome_007.png";
+}
+resource _UM_Images_TBT_TBT_19_Fork2_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_19_Fork2_Road.png";
+}
+resource _UM_Images_SPAS_SPAS_11_Vertical_Parked_Car_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_11_Vertical_Parked_Car_L.png";
+}
+resource _HI_images_ZEN_kmh_png image
+{
+    path : "/HI_images/ZEN/kmh.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_17_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_17.png";
+}
+resource HI_images_mode_B_dynamic_needle_dynamic_png image
+{
+    path : "HI_images/mode_B/dynamic/needle_dynamic.png";
+}
+resource _UM_Images_ISG_ISG_04_AutoStop_Check_png image
+{
+    path : "/UM_Images/ISG/ISG_04_AutoStop_Check.png";
+}
+resource UM_Images_SPAS_SPAS_TopICon_Parking_Vertical_R_png image
+{
+    path : "UM_Images/SPAS/SPAS_TopICon_Parking_Vertical_R.png";
+}
+resource _UM_Images_SBM_SBM_Start_Button_Outer_png image
+{
+    path : "/UM_Images/SBM/SBM_Start_Button_Outer.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_00_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_00.png";
+}
+resource HI_images_theme_selection_Theme_A_png image
+{
+    path : "HI_images/theme_selection/Theme_A.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_10_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_10.png";
+}
+resource UM_Images_TBT_TBT_24_Combination_Street_L_png image
+{
+    path : "UM_Images/TBT/TBT_24_Combination_Street_L.png";
+}
+resource _UM_Images_TBT_TBT_Loading_05_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_05.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Center_Lv3_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Center_Lv3.png";
+}
+resource _UM_Images_SPAS_Temp_4_Select_png image
+{
+    path : "/UM_Images/SPAS/Temp_4_Select.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_LKAS_16_Steering_Wheel_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/LKAS_16_Steering_Wheel.png";
+}
+resource HI_images_mode_C_comfort_temp_icon_comfort_png image
+{
+    path : "HI_images/mode_C/comfort/temp-icon_comfort.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_45h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_45h.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_20_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_20.png";
+}
+resource HI_images_welcome_welcome_024_png image
+{
+    path : "HI_images/welcome/welcome_024.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_16_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_16.png";
+}
+resource _UM_Images_TBT_TBT_16_Exit_L_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_16_Exit_L_Road.png";
+}
+resource _UM_Images_TBT_TBT_19_Fork2_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_19_Fork2_Right.png";
+}
+resource _UM_Images_TBT_TBT_16_Exit_L_Direction_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_16_Exit_L_Direction_Left.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_21_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_21.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_11_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_11.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_04_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_04.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_breakoff_03_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_breakoff_03.png";
+}
+resource UM_Images_TPMS_TPMS_02_Warning_FR_png image
+{
+    path : "UM_Images/TPMS/TPMS_02_Warning_FR.png";
+}
+resource _UM_Images_Warning_Warning_13_ECS_Check_png image
+{
+    path : "/UM_Images/Warning/Warning_13_ECS_Check.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_num_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_num.png";
+}
+resource _UM_Images_TBT_TBT_26_Overpass_L_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_26_Overpass_L_Right.png";
+}
+resource _UM_Images_SPAS_SPAS_20_Alert_Icon_png image
+{
+    path : "/UM_Images/SPAS/SPAS_20_Alert_Icon.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_22_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_22.png";
+}
+resource HI_images_welcome_welcome_005_png image
+{
+    path : "HI_images/welcome/welcome_005.png";
+}
+resource _UM_Images_SPAS_SPAS_Parallel_Parked_Car_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parallel_Parked_Car_L.png";
+}
+resource HI_images_welcome_welcome_033_png image
+{
+    path : "HI_images/welcome/welcome_033.png";
+}
+resource HI_images_mode_B_eco_Temp_Gague_temp_gague_eco_03_png image
+{
+    path : "HI_images/mode_B/eco/Temp Gague/temp_gague_eco_03.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_31h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_31h.png";
+}
+resource _internal_79176406744709559_images_comfort_rpm_dot_comfort_png image
+{
+    path : ".internal/79176406744709559/images/comfort/rpm_dot_comfort.png";
+}
+resource HI_images_mode_B_Common_00_gui_comfort_prnd_p_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_comfort_prnd_p.png";
+}
+resource HI_images_mode_A_dynamic_00_gui_benzin_temp_ring_dynamic_png image
+{
+    path : "HI_images/mode_A/dynamic/00_gui_benzin&temp_ring_dynamic.png";
+}
+resource HI_images_contents_Theme_A_gt_av_av_bluetooth_audio_png image
+{
+    path : "HI_images/contents/Theme A/gt_av/av_bluetooth_audio.png";
+}
+resource HI_images_mode_B_comfort_transition_comfort_Left_Circle_exp_tr_leftcircle_comfort_00_png image
+{
+    path : "HI_images/mode_B/comfort/transition_comfort/Left Circle/exp_tr_leftcircle_comfort_00.png";
+}
+resource _UM_Images_TBT_TBT_20_Fork3_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_20_Fork3_Left.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_12_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_12.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_01_Activated_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_01_Activated.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_36h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_36h.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_Maintenance_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_Maintenance.png";
+}
+resource HI_images_mode_B_eco_transition_eco_Right_Circle_exp_tr_rightcircle_eco_00_png image
+{
+    path : "HI_images/mode_B/eco/transition_eco/Right Circle/exp_tr_rightcircle_eco_00.png";
+}
+resource HI_images_welcome_welcome_008_png image
+{
+    path : "HI_images/welcome/welcome_008.png";
+}
+resource HI_images_mode_C_dynamic_Temp_Gague_temp_gague_dynamic_03_png image
+{
+    path : "HI_images/mode_C/dynamic/Temp Gague/temp_gague_dynamic_03.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_09_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_09.png";
+}
+resource HI_images_mode_A_Common_00_gui_Temp_c_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_Temp_c.png";
+}
+resource _UM_Images_AV_AV_AUX_png image
+{
+    path : "/UM_Images/AV/AV_AUX.png";
+}
+resource HI_images_welcome_welcome_009_png image
+{
+    path : "HI_images/welcome/welcome_009.png";
+}
+resource _UM_Images_AV_AV_Pandora_png image
+{
+    path : "/UM_Images/AV/AV_Pandora.png";
+}
+resource _UM_Images_TBT_TBT_15_Exit_R_Direction_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_15_Exit_R_Direction_Right.png";
+}
+resource UM_Images_HeatingSteer_Heating_Steer_01_On_png image
+{
+    path : "UM_Images/HeatingSteer/Heating_Steer_01_On.png";
+}
+resource UM_Images_AV_AV_DMB_png image
+{
+    path : "UM_Images/AV/AV_DMB.png";
+}
+resource _UM_Images_SPAS_SPAS_Radar_L_Lv1_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Radar_L_Lv1.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_line_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_line.png";
+}
+resource HI_images_mode_A_Common_00_gui_ring_black_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_ring_black.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_15_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_15.png";
+}
+resource HI_images_mode_B_comfort_transition_comfort_exp_tr_rightcircle_comfort_bg_png image
+{
+    path : "HI_images/mode_B/comfort/transition_comfort/exp_tr_rightcircle_comfort_bg.png";
+}
+resource _UM_Images_SPAS_SPAS_Parking_Point_Area_Vertical_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parking_Point_Area_Vertical_R.png";
+}
+resource _UM_Images_AV_AV_Loading_06_png image
+{
+    path : "/UM_Images/AV/AV_Loading_06.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Trunk_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Trunk.png";
+}
+resource _UM_Images_Service_Service_Spaneer_png image
+{
+    path : "/UM_Images/Service/Service_Spaneer.png";
+}
+resource _UM_Images_SBM_SBM_03_Steering_Wheel_png image
+{
+    path : "/UM_Images/SBM/SBM_03_Steering_Wheel.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_14_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_14.png";
+}
+resource _UM_Images_TBT_TBT_14_Turn_Combination_L_png image
+{
+    path : "/UM_Images/TBT/TBT_14_Turn_Combination_L.png";
+}
+resource HI_images_mode_C_comfort_needle_Graph_Speedometer_speedometer_comfort_00_png image
+{
+    path : "HI_images/mode_C/comfort/needle Graph/Speedometer/speedometer_comfort_00.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_11h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_11h.png";
+}
+resource _UM_Images_SPAS_SPAS_13_Press_Arrow_png image
+{
+    path : "/UM_Images/SPAS/SPAS_13_Press_Arrow.png";
+}
+resource HI_images_mode_A_Common_00_gui_benzin_temp_ring_balck_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_benzin&temp_ring_balck.png";
+}
+resource _UM_Images_TBT_TBT_13_Turn_Combination_R_png image
+{
+    path : "/UM_Images/TBT/TBT_13_Turn_Combination_R.png";
+}
+resource HI_images_mode_C_dynamic_fuel_icon_dynamic_png image
+{
+    path : "HI_images/mode_C/dynamic/fuel-icon_dynamic.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_06_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_06.png";
+}
+resource HI_images_mode_A_comfort_00_gui_gauge_comfort_png image
+{
+    path : "HI_images/mode_A/comfort/00_gui_gauge_comfort.png";
+}
+resource HI_images_mode_B_eco_graph_speedo_eco_R_png image
+{
+    path : "HI_images/mode_B/eco/graph_speedo_eco_R.png";
+}
+resource _UM_Images_SBM_SBM_11_Shadow_TEMP_png image
+{
+    path : "/UM_Images/SBM/SBM_11_Shadow_TEMP.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D3_Brake_Off_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D3_Brake_Off.png";
+}
+resource HI_images_welcome_welcome_020_png image
+{
+    path : "HI_images/welcome/welcome_020.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_15_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_15.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_rightline_focus_yellow_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_rightline_focus_yellow.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_12_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_12.png";
+}
+resource UM_Images_Popup_Popup_White_png image
+{
+    path : "UM_Images/Popup/Popup_White.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_11_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_11.png";
+}
+resource HI_images_page_indiactor_I_Page_Indicator_Bg_png image
+{
+    path : "HI_images/page_indiactor/I_Page_Indicator_Bg.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_24_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_24.png";
+}
+resource HI_images_mode_B_Common_00_gui_comfort_prnd_r_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_comfort_prnd_r.png";
+}
+resource HI_images_mode_B_Common_00_gui_dynamic_prnd_d_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_dynamic_prnd_d.png";
+}
+resource _UM_Images_PAS_PAS_Front_Right_Lv2_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Right_Lv2.png";
+}
+resource _UM_Images_Warning_Warning_09_DCT_Warning_png image
+{
+    path : "/UM_Images/Warning/Warning_09_DCT_Warning.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_Default_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_Default.png";
+}
+resource HI_images_mode_A_TopICON_Trip_png image
+{
+    path : "HI_images/mode_A/TopICON/Trip.png";
+}
+resource _UM_Images_SBM_SBM_10_Start_Button_Inner_png image
+{
+    path : "/UM_Images/SBM/SBM_10_Start_Button_Inner.png";
+}
+resource _UM_Images_SPAS_SPAS_Parallel_Parked_Car_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parallel_Parked_Car_R.png";
+}
+resource HI_images_welcome_welcome_038_png image
+{
+    path : "HI_images/welcome/welcome_038.png";
+}
+resource HI_images_mode_C_dynamic_needle_Graph_Speedometer_speedometer_dynamic_00_png image
+{
+    path : "HI_images/mode_C/dynamic/needle Graph/Speedometer/speedometer_dynamic_00.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_04_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_04.png";
+}
+resource HI_images_welcome_welcome_037_png image
+{
+    path : "HI_images/welcome/welcome_037.png";
+}
+resource _UM_Images_PAS_PAS_Front_Left_Lv1_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Left_Lv1.png";
+}
+resource _UM_Images_SBM_SBM_Start_Button_Inner_png image
+{
+    path : "/UM_Images/SBM/SBM_Start_Button_Inner.png";
+}
+resource HI_images_mode_B_Common_00_gui_dynamic_prnd_n_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_dynamic_prnd_n.png";
+}
+resource _UM_Images_TBT_TBT_06_Title_Area_Flag_png image
+{
+    path : "/UM_Images/TBT/TBT_06_Title_Area_Flag.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_05_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_05.png";
+}
+resource _UM_Images_SPAS_SPAS_Point_Boundary_Vertical_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Point_Boundary_Vertical_R.png";
+}
+resource _UM_Images_PAS_PAS_Front_Left_Lv2_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Left_Lv2.png";
+}
+resource _UM_Images_Warning_Warning_04_Low_Engine_Oil_png image
+{
+    path : "/UM_Images/Warning/Warning_04_Low_Engine_Oil.png";
+}
+resource HI_images_welcome_welcome_036_png image
+{
+    path : "HI_images/welcome/welcome_036.png";
+}
+resource _UM_Images_SPAS_SPAS_Radar_R_Lv1_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Radar_R_Lv1.png";
+}
+resource _UM_Images_TBT_TBT_25_Overpass_R_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_25_Overpass_R_Right.png";
+}
+resource _UM_Images_SPAS_Temp_5_Select_png image
+{
+    path : "/UM_Images/SPAS/Temp_5_Select.png";
+}
+resource _UM_Images_TBT_TBT_Loading_13_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_13.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_04_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_04.png";
+}
+resource _UM_Images_SPAS_SPAS_Radar_R_Lv3_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Radar_R_Lv3.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_03_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_03.png";
+}
+resource _UM_Images_TBT_TBT_20_Fork3_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_20_Fork3_Right.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_18_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_18.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_13_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_13.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_03_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_03.png";
+}
+resource HI_images_mode_A_Common_00_gui_benzin_f_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_benzin_f.png";
+}
+resource HI_images_mode_B_Common_00_gui_eco_prnd_r_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_eco_prnd_r.png";
+}
+resource _UM_Images_SPAS_SPAS_05_Parallel_Parked_Car_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_05_Parallel_Parked_Car_L.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_road_leftline_edge_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_road_leftline_edge.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_19_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_19.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_10_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_10.png";
+}
+resource _UM_Images_Warning_Warning_06_Water_Filter_png image
+{
+    path : "/UM_Images/Warning/Warning_06_Water_Filter.png";
+}
+resource HI_images_welcome_welcome_042_png image
+{
+    path : "HI_images/welcome/welcome_042.png";
+}
+resource HI_images_mode_A_Common_00_gui_prnd_r_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_prnd_r.png";
+}
+resource _UM_Images_SBM_SBM_Master_Symbol_png image
+{
+    path : "/UM_Images/SBM/SBM_Master_Symbol.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_3Ah_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_3Ah.png";
+}
+resource _UM_Images_ISG_ISG_03_AutoStop_Status_On_png image
+{
+    path : "/UM_Images/ISG/ISG_03_AutoStop_Status_On.png";
+}
+resource HI_images_mode_B_dynamic_graph_tacho_dynamic_R_png image
+{
+    path : "HI_images/mode_B/dynamic/graph_tacho_dynamic_R.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_14_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_14.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_road_rightline_edge_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_road_rightline_edge.png";
+}
+resource HI_images_welcome_welcome_022_png image
+{
+    path : "HI_images/welcome/welcome_022.png";
+}
+resource HI_images_mode_C_comfort_Temp_Gague_temp_gague_comfort_03_png image
+{
+    path : "HI_images/mode_C/comfort/Temp Gague/temp_gague_comfort_03.png";
+}
+resource _HI_images_ZEN_Small_Weather_Icon_png image
+{
+    path : "/HI_images/ZEN/Small Weather Icon.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_21h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_21h.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_12_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_12.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_06_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_06.png";
+}
+resource HI_images_welcome_welcome_044_png image
+{
+    path : "HI_images/welcome/welcome_044.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_13_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_13.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Center_Lv1_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Center_Lv1.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Center_Malfunction_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Center_Malfunction.png";
+}
+resource _UM_Images_SPAS_SPAS_Parking_Point_Area_Vertical_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parking_Point_Area_Vertical_L.png";
+}
+resource _UM_Images_TBT_TBT_Loading_09_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_09.png";
+}
+resource _UM_Images_TBT_TBT_Progress_Bar_png image
+{
+    path : "/UM_Images/TBT/TBT_Progress_Bar.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_00_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_00.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Right_Lv2_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Right_Lv2.png";
+}
+resource _UM_Images_AV_AV_USB_Video_png image
+{
+    path : "/UM_Images/AV/AV_USB_Video.png";
+}
+resource _UM_Images_Warning_Warning_08_Fuse_Switch_png image
+{
+    path : "/UM_Images/Warning/Warning_08_Fuse_Switch.png";
+}
+resource HI_images_mode_B_eco_transition_eco_exp_tr_leftcircle_eco_00_png image
+{
+    path : "HI_images/mode_B/eco/transition_eco/exp_tr_leftcircle_eco_00.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Door_FL_Warining_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Door_FL_Warining.png";
+}
+resource _UM_Images_PAS_PAS_Background_png image
+{
+    path : "/UM_Images/PAS/PAS_Background.png";
+}
+resource _HI_images_ZEN_Dial_png image
+{
+    path : "/HI_images/ZEN/Dial.png";
+}
+resource UM_Images_SPAS_SPAS_TopIcon_Parking_Parallel_L_png image
+{
+    path : "UM_Images/SPAS/SPAS_TopIcon_Parking_Parallel_L.png";
+}
+resource _UM_Images_TBT_TBT_06_Follow_Steet_png image
+{
+    path : "/UM_Images/TBT/TBT_06_Follow_Steet.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Right_Lv1_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Right_Lv1.png";
+}
+resource _UM_Images_Warning_Warning_10_Active_Hood_png image
+{
+    path : "/UM_Images/Warning/Warning_10_Active_Hood.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_03_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_03.png";
+}
+resource _UM_Images_TBT_AV_USB_Music_png image
+{
+    path : "/UM_Images/TBT/AV_USB_Music.png";
+}
+resource _UM_Images_SPAS_Temp_3_Select_png image
+{
+    path : "/UM_Images/SPAS/Temp_3_Select.png";
+}
+resource HI_images_mode_A_Common_00_gui_tachometer_gradation_gray_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_tachometer_gradation_gray.png";
+}
+resource _UM_Images_SPAS_SPAS_Arrow_Heading_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Arrow_Heading.png";
+}
+resource _HI_images_ZEN_rain_png image
+{
+    path : "/HI_images/ZEN/rain.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_08_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_08.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_leftline_focus_yellow_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_leftline_focus_yellow.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_20h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_20h.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_15_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_15.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_24h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_24h.png";
+}
+resource _UM_Images_AV_AV_Loading_04_png image
+{
+    path : "/UM_Images/AV/AV_Loading_04.png";
+}
+resource HI_images_welcome_welcome_025_png image
+{
+    path : "HI_images/welcome/welcome_025.png";
+}
+resource _UM_Images_AV_AV_CD_png image
+{
+    path : "/UM_Images/AV/AV_CD.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_06_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_06.png";
+}
+resource HI_images_mode_A_comfort_00_gui_ring_comfort_png image
+{
+    path : "HI_images/mode_A/comfort/00_gui_ring_comfort.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_car_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_car.png";
+}
+resource _UM_Images_SPAS_SPAS_TopIcon_Line_png image
+{
+    path : "/UM_Images/SPAS/SPAS_TopIcon_Line.png";
+}
+resource _UM_Images_Rheostat_Rheostat_Graphics_Gauge_Background_png image
+{
+    path : "/UM_Images/Rheostat/Rheostat_Graphics_Gauge_Background.png";
+}
+resource _UM_Images_SPAS_SPAS_ExitMode_Radar_Lv3_png image
+{
+    path : "/UM_Images/SPAS/SPAS_ExitMode_Radar_Lv3.png";
+}
+resource UM_Images_USM_new_check_png image
+{
+    path : "UM_Images/USM/new_check.png";
+}
+resource HI_images_welcome_welcome_034_png image
+{
+    path : "HI_images/welcome/welcome_034.png";
+}
+resource _UM_Images_SPAS_SPAS_02_Parallel_Parked_Car_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_02_Parallel_Parked_Car_R.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_Default_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_Default.png";
+}
+resource _HI_images_ZEN_Index_Speed_png image
+{
+    path : "/HI_images/ZEN/Index_Speed.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_23h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_23h.png";
+}
+resource _UM_Images_TBT_TBT_16_Exit_L_Road_SideStreet_png image
+{
+    path : "/UM_Images/TBT/TBT_16_Exit_L_Road_SideStreet.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_02_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_02.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_2Bh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_2Bh.png";
+}
+resource _UM_Images_TBT_TBT_21_U_Turn_R_png image
+{
+    path : "/UM_Images/TBT/TBT_21_U_Turn_R.png";
+}
+resource HI_images_mode_C_eco_Fuel_Gague_fuel_gague_eco_17_png image
+{
+    path : "HI_images/mode_C/eco/Fuel Gague/fuel_gague_eco_17.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_9h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_9h.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_10_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_10.png";
+}
+resource HI_images_mode_B_dynamic_graph_speedo_dynamic_R_png image
+{
+    path : "HI_images/mode_B/dynamic/graph_speedo_dynamic_R.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_04_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_04.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_02_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_02.png";
+}
+resource UM_Images_USM_directionContainer_image_Shape_png image
+{
+    path : "UM_Images/USM/directionContainer.image.Shape.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_07_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_07.png";
+}
+resource _UM_Images_EPB_EPB_Boots_png image
+{
+    path : "/UM_Images/EPB/EPB_Boots.png";
+}
+resource _UM_Images_SPAS_SPAS_ExitMode_Parked_Car_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_ExitMode_Parked_Car_L.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_11_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_11.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_14_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_14.png";
+}
+resource UM_Images_TBT_TBT_24_Combination_Street_R_png image
+{
+    path : "UM_Images/TBT/TBT_24_Combination_Street_R.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_09_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_09.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_12_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_12.png";
+}
+resource _UM_Images_AV_AV_Loading_00_png image
+{
+    path : "/UM_Images/AV/AV_Loading_00.png";
+}
+resource _UM_Images_HeatingSteer_Heating_Steer_02_Off_png image
+{
+    path : "/UM_Images/HeatingSteer/Heating_Steer_02_Off.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_01_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_01.png";
+}
+resource HI_images_welcome_welcome_043_png image
+{
+    path : "HI_images/welcome/welcome_043.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_13_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_13.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D1_Brake_On_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D1_Brake_On.png";
+}
+resource HI_images_mode_B_eco_transition_eco_exp_tr_rightcircle_eco_00_png image
+{
+    path : "HI_images/mode_B/eco/transition_eco/exp_tr_rightcircle_eco_00.png";
+}
+resource _UM_Images_TBT_TBT_18_Exit_Combination_L_Direction_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_18_Exit_Combination_L_Direction_Left.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_2h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_2h.png";
+}
+resource _UM_Images_TBT_TBT_Loading_04_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_04.png";
+}
+resource _HI_images_ZEN_Base_Line_png image
+{
+    path : "/HI_images/ZEN/Base_Line.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_02_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_02.png";
+}
+resource _HI_images_ZEN_Shape_342_copy_3_png image
+{
+    path : "/HI_images/ZEN/Shape 342 copy 3.png";
+}
+resource LF_Images_AV_AVN_png image
+{
+    path : "LF_Images/AV/AVN.png";
+}
+resource UM_Images_TPMS_TPMS_02_Warning_RR_png image
+{
+    path : "UM_Images/TPMS/TPMS_02_Warning_RR.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_09_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_09.png";
+}
+resource _HI_images_ZEN_Layer_6_copy_2_png image
+{
+    path : "/HI_images/ZEN/Layer 6 copy 2.png";
+}
+resource HI_images_mode_A_Common_00_gui_drivingmode_eco_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_drivingmode_eco.png";
+}
+resource HI_images_mode_A_eco_00_gui_benzin_temp_ring_eco_png_png image
+{
+    path : "HI_images/mode_A/eco/00_gui_benzin&temp_ring_eco.png.png";
+}
+resource HI_images_mode_C_Common_menu_icon02_nor_png image
+{
+    path : "HI_images/mode_C/Common/menu_icon02_nor.png";
+}
+resource _UM_Images_Bottom_OAT_Unit_F_png image
+{
+    path : "/UM_Images/Bottom/OAT_Unit_F.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_02_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_02.png";
+}
+resource _UM_Images_SPAS_SPAS_Point_Boundary_Vertical_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Point_Boundary_Vertical_L.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_car_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_car.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_30h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_30h.png";
+}
+resource HI_images_mode_B_comfort_graph_tacho_comfort_R_png image
+{
+    path : "HI_images/mode_B/comfort/graph_tacho_comfort_R.png";
+}
+resource _UM_Images_TBT_TBT_16_Exit_L_Direction_Center_png image
+{
+    path : "/UM_Images/TBT/TBT_16_Exit_L_Direction_Center.png";
+}
+resource HI_images_welcome_welcome_001_png image
+{
+    path : "HI_images/welcome/welcome_001.png";
+}
+resource HI_images_mode_B_comfort_Temp_Gague_Temp_gague_comfort_03_png image
+{
+    path : "HI_images/mode_B/comfort/Temp Gague/Temp_gague_comfort_03.png";
+}
+resource _UM_Images_EPB_EPB_06_SeatBelt_Door_png image
+{
+    path : "/UM_Images/EPB/EPB_06_SeatBelt_Door.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_04_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_04.png";
+}
+resource HI_images_mode_B_Common_00_gui_eco_prnd_p_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_eco_prnd_p.png";
+}
+resource _UM_Images_SPAS_SPAS_My_Car_png image
+{
+    path : "/UM_Images/SPAS/SPAS_My_Car.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_05_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_05.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_06_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_06.png";
+}
+resource _UM_Images_SPAS_SPAS_21_AUTO_HOLD_png image
+{
+    path : "/UM_Images/SPAS/SPAS_21_AUTO_HOLD.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_13_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_13.png";
+}
+resource _UM_Images_SPAS_SPAS_Point_Boundary_Parallel_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Point_Boundary_Parallel_R.png";
+}
+resource _UM_Images_SPAS_SPAS_TopIcon_Exit_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_TopIcon_Exit_L.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_28h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_28h.png";
+}
+resource _UM_Images_TBT_TBT_17_Exit_Combination_R_Direction_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_17_Exit_Combination_R_Direction_Right.png";
+}
+resource _UM_Images_Warning_Warning_05_Check_Battery_png image
+{
+    path : "/UM_Images/Warning/Warning_05_Check_Battery.png";
+}
+resource _UM_Images_PAS_PAS_Front_Center_Lv3_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Center_Lv3.png";
+}
+resource _UM_Images_TBT_TBT_06_Pre_Information_Box_png image
+{
+    path : "/UM_Images/TBT/TBT_06_Pre_Information_Box.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_LKAS_MDPS_L_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/LKAS_MDPS_L.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_03_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_03.png";
+}
+resource LF_Images_TBT_TG_png image
+{
+    path : "LF_Images/TBT/TG.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_07_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_07.png";
+}
+resource _UM_Images_SPAS_SPAS_Vertical_Parked_Car_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Vertical_Parked_Car_R.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_12h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_12h.png";
+}
+resource HI_images_welcome_welcome_004_png image
+{
+    path : "HI_images/welcome/welcome_004.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_01_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_01.png";
+}
+resource UM_Images_TPMS_TPMS_02_Warning_RL_png image
+{
+    path : "UM_Images/TPMS/TPMS_02_Warning_RL.png";
+}
+resource HI_images_mode_C_dynamic_Fuel_Gague_fuel_gague_dynamic_17_png image
+{
+    path : "HI_images/mode_C/dynamic/Fuel Gague/fuel_gague_dynamic_17.png";
+}
+resource HI_images_goodbye_outro_png image
+{
+    path : "HI_images/goodbye/outro.png";
+}
+resource HI_images_mode_B_comfort_graph_tacho_comfort_L_png image
+{
+    path : "HI_images/mode_B/comfort/graph_tacho_comfort_L.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_3h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_3h.png";
+}
+resource _UM_Images_USM_Cursor_png image
+{
+    path : "/UM_Images/USM/Cursor.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_35h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_35h.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_Bh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_Bh.png";
+}
+resource HI_images_mode_B_dynamic_graph_tacho_dynamic_L_png image
+{
+    path : "HI_images/mode_B/dynamic/graph_tacho_dynamic_L.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_Background_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_Background.png";
+}
+resource _UM_Images_SBM_SBM_06_Boots_png image
+{
+    path : "/UM_Images/SBM/SBM_06_Boots.png";
+}
+resource _UM_Images_TBT_TBT_25_Overpass_R_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_25_Overpass_R_Left.png";
+}
+resource HI_images_mode_C_comfort_needle_Graph_Tachometer_tachometer_comfort_00_png image
+{
+    path : "HI_images/mode_C/comfort/needle Graph/Tachometer/tachometer_comfort_00.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_2Ah_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_2Ah.png";
+}
+resource _UM_Images_AV_AV_Loading_12_png image
+{
+    path : "/UM_Images/AV/AV_Loading_12.png";
+}
+resource UM_Images_TPMS_TPMS_01_Warning_png image
+{
+    path : "UM_Images/TPMS/TPMS_01_Warning.png";
+}
+resource HI_images_mode_A_Common_00_gui_drivingmode_comfort_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_drivingmode_comfort.png";
+}
+resource HI_images_mode_A_Common_00_gui_benzin_e_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_benzin_e.png";
+}
+resource HI_images_mode_A_Common_needle_s_png image
+{
+    path : "HI_images/mode_A/Common/needle_s.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_05_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_05.png";
+}
+resource _UM_Images_TBT_TBT_20_Fork3_Center_png image
+{
+    path : "/UM_Images/TBT/TBT_20_Fork3_Center.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_15_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_15.png";
+}
+resource _UM_Images_SAS_SAS_Background_png image
+{
+    path : "/UM_Images/SAS/SAS_Background.png";
+}
+resource _UM_Images_EPB_EPB_02_BPad_png image
+{
+    path : "/UM_Images/EPB/EPB_02_BPad.png";
+}
+resource _UM_Images_TBT_TBT_02_Flag_png image
+{
+    path : "/UM_Images/TBT/TBT_02_Flag.png";
+}
+resource HI_images_mode_A_Common_00_gui_prnd_n_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_prnd_n.png";
+}
+resource HI_images_welcome_welcome_035_png image
+{
+    path : "HI_images/welcome/welcome_035.png";
+}
+resource HI_images_mode_B_eco_graph_tacho_eco_L_png image
+{
+    path : "HI_images/mode_B/eco/graph_tacho_eco_L.png";
+}
+resource _HI_images_ZEN_Fuel_icon_png image
+{
+    path : "/HI_images/ZEN/Fuel_icon.png";
+}
+resource HI_images_mode_B_dynamic_Fuel_Gague_fuel_gague_dynamic_07_png image
+{
+    path : "HI_images/mode_B/dynamic/Fuel Gague/fuel_gague_dynamic_07.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Center_Lv2_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Center_Lv2.png";
+}
+resource _UM_Images_SPAS_SPAS_Parking_Point_Area_Parallel_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parking_Point_Area_Parallel_L.png";
+}
+resource _UM_Images_TBT_TBT_Loading_01_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_01.png";
+}
+resource HI_images_welcome_welcome_028_png image
+{
+    path : "HI_images/welcome/welcome_028.png";
+}
+resource UM_Images_USM_blur_png image
+{
+    path : "UM_Images/USM/blur.png";
+}
+resource HI_images_welcome_welcome_017_png image
+{
+    path : "HI_images/welcome/welcome_017.png";
+}
+resource _UM_Images_AV_AV_Loading_01_png image
+{
+    path : "/UM_Images/AV/AV_Loading_01.png";
+}
+resource _UM_Images_Warning_Warning_02_AAF_png image
+{
+    path : "/UM_Images/Warning/Warning_02_AAF.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_01_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_01.png";
+}
+resource HI_images_mode_A_Common_00_gui_benzin_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_benzin.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_11_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_11.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_03_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_03.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_15_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_15.png";
+}
+resource HI_images_mode_C_Common_menu_panel_l_png image
+{
+    path : "HI_images/mode_C/Common/menu_panel_l.png";
+}
+resource _HI_images_ZEN_Gauge_Full_png image
+{
+    path : "/HI_images/ZEN/Gauge_Full.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_6h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_6h.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_09_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_09.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_14h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_14h.png";
+}
+resource _UM_Images_ISG_ISG_Press_Arrow_png image
+{
+    path : "/UM_Images/ISG/ISG_Press_Arrow.png";
+}
+resource _UM_Images_TBT_TBT_Progress_Bar_Background_png image
+{
+    path : "/UM_Images/TBT/TBT_Progress_Bar_Background.png";
+}
+resource HI_images_welcome_welcome_026_png image
+{
+    path : "HI_images/welcome/welcome_026.png";
+}
+resource _UM_Images_ISG_ISG_07_Brake_Boots_png image
+{
+    path : "/UM_Images/ISG/ISG_07_Brake_Boots.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_14_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_14.png";
+}
+resource UM_Images_SCC_LKAS_LDWS_SCC_Brake_IND_png image
+{
+    path : "UM_Images/SCC_LKAS_LDWS/SCC_Brake_IND.png";
+}
+resource _UM_Images_AV_AV_BT_ActiveCall_png image
+{
+    path : "/UM_Images/AV/AV_BT_ActiveCall.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_07_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_07.png";
+}
+resource _UM_Images_TBT_TBT_27_Underpass_R_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_27_Underpass_R_Road.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_3Dh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_3Dh.png";
+}
+resource _UM_Images_AV_AV_BT_Audio_png image
+{
+    path : "/UM_Images/AV/AV_BT_Audio.png";
+}
+resource UM_Images_USM_direction_image_Shape_png image
+{
+    path : "UM_Images/USM/direction.image.Shape.png";
+}
+resource _UM_Images_TBT_TBT_04_My_Car_png image
+{
+    path : "/UM_Images/TBT/TBT_04_My_Car.png";
+}
+resource _UM_Images_SPAS_SPAS_13_Boots_png image
+{
+    path : "/UM_Images/SPAS/SPAS_13_Boots.png";
+}
+resource _UM_Images_ISG_ISG_03_AutoStop_png image
+{
+    path : "/UM_Images/ISG/ISG_03_AutoStop.png";
+}
+resource HI_images_welcome_welcome_027_png image
+{
+    path : "HI_images/welcome/welcome_027.png";
+}
+resource _UM_Images_AV_AV_UVO_png image
+{
+    path : "/UM_Images/AV/AV_UVO.png";
+}
+resource HI_images_mode_A_Common_00_gui_Temp_icon_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_Temp_icon.png";
+}
+resource HI_images_mode_B_eco_graph_tacho_eco_R_png image
+{
+    path : "HI_images/mode_B/eco/graph_tacho_eco_R.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_47h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_47h.png";
+}
+resource _UM_Images_SBM_SBM_SmartKey_png image
+{
+    path : "/UM_Images/SBM/SBM_SmartKey.png";
+}
+resource _UM_Images_SPAS_SPAS_16_Shift_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_16_Shift_R.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_breakoff_01_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_breakoff_01.png";
+}
+resource _UM_Images_TBT_TBT_Loading_15_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_15.png";
+}
+resource HI_images_mode_B_Common_00_gui_dynamic_prnd_p_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_dynamic_prnd_p.png";
+}
+resource _UM_Images_SPAS_SPAS_29_Parking_Point_Area_Vertical_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_29_Parking_Point_Area_Vertical_L.png";
+}
+resource _UM_Images_SteeringMode_Steering_Mode_03_Comfort_png image
+{
+    path : "/UM_Images/SteeringMode/Steering_Mode_03_Comfort.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_27h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_27h.png";
+}
+resource _UM_Images_Warning_Warning_03_Low_Washer_png image
+{
+    path : "/UM_Images/Warning/Warning_03_Low_Washer.png";
+}
+resource _UM_Images_SPAS_SPAS_Radar_L_Lv2_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Radar_L_Lv2.png";
+}
+resource _UM_Images_ISG_ISG_Time_png image
+{
+    path : "/UM_Images/ISG/ISG_Time.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_09_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_09.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_00_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_00.png";
+}
+resource _HI_images_ZEN_Cloud_Main_copy_png image
+{
+    path : "/HI_images/ZEN/Cloud Main copy.png";
+}
+resource _UM_Images_EPB_EPB_03_Car_png image
+{
+    path : "/UM_Images/EPB/EPB_03_Car.png";
+}
+resource HI_images_mode_C_dynamic_needle_Graph_Tachometer_tachometer_dynamic_00_png image
+{
+    path : "HI_images/mode_C/dynamic/needle Graph/Tachometer/tachometer_dynamic_00.png";
+}
+resource HI_images_welcome_welcome_040_png image
+{
+    path : "HI_images/welcome/welcome_040.png";
+}
+resource UM_Images_SPAS_SPAS_TopICon_Parking_Vertical_L_png image
+{
+    path : "UM_Images/SPAS/SPAS_TopICon_Parking_Vertical_L.png";
+}
+resource UM_Images_Popup_Popup_Bg_png image
+{
+    path : "UM_Images/Popup/Popup_Bg.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_caution_car_02_red_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_caution_car_02_red.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_01_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_01.png";
+}
+resource _UM_Images_SPAS_SPAS_18_Steering_Wheel_Hand_On_png image
+{
+    path : "/UM_Images/SPAS/SPAS_18_Steering_Wheel_Hand_On.png";
+}
+resource HI_images_welcome_welcome_002_png image
+{
+    path : "HI_images/welcome/welcome_002.png";
+}
+resource _UM_Images_SAS_SAS_01_RightTire_png image
+{
+    path : "/UM_Images/SAS/SAS_01_RightTire.png";
+}
+resource HI_images_mode_B_eco_transition_eco_Left_Circle_exp_tr_leftcircle_eco_00_png image
+{
+    path : "HI_images/mode_B/eco/transition_eco/Left Circle/exp_tr_leftcircle_eco_00.png";
+}
+resource HI_images_mode_A_dynamic_00_gui_gauge_dynamic_png image
+{
+    path : "HI_images/mode_A/dynamic/00_gui_gauge_dynamic.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_02_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_02.png";
+}
+resource _UM_Images_AV_AV_Loading_02_png image
+{
+    path : "/UM_Images/AV/AV_Loading_02.png";
+}
+resource _UM_Images_TBT_TBT_18_Exit_Combination_L_Direction_LeftCenter_png image
+{
+    path : "/UM_Images/TBT/TBT_18_Exit_Combination_L_Direction_LeftCenter.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D4_Brake_Off_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D4_Brake_Off.png";
+}
+resource _UM_Images_TBT_TBT_22_U_Turn_L_png image
+{
+    path : "/UM_Images/TBT/TBT_22_U_Turn_L.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_14_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_14.png";
+}
+resource _UM_Images_EPB_EPB_Press_Arrow_png image
+{
+    path : "/UM_Images/EPB/EPB_Press_Arrow.png";
+}
+resource HI_images_welcome_welcome_013_png image
+{
+    path : "HI_images/welcome/welcome_013.png";
+}
+resource HI_images_mode_A_eco_00_gui_ring_eco_png image
+{
+    path : "HI_images/mode_A/eco/00_gui_ring_eco.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_48h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_48h.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_LKAS_Background_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/LKAS_Background.png";
+}
+resource HI_images_mode_A_dynamic_00_gui_ring_dynamic_png image
+{
+    path : "HI_images/mode_A/dynamic/00_gui_ring_dynamic.png";
+}
+resource HI_images_mode_A_Common_00_gui_Temp_h_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_Temp_h.png";
+}
+resource _UM_Images_TBT_TBT_17_Exit_Combination_R_Road_SideStreet_png image
+{
+    path : "/UM_Images/TBT/TBT_17_Exit_Combination_R_Road_SideStreet.png";
+}
+resource _UM_Images_SPAS_SPAS_ExitMode_Radar_Lv2_png image
+{
+    path : "/UM_Images/SPAS/SPAS_ExitMode_Radar_Lv2.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Door_RR_Warining_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Door_RR_Warining.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_14_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_14.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D2_Brake_On_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D2_Brake_On.png";
+}
+resource _HI_images_ZEN_Layer_6_copy_png image
+{
+    path : "/HI_images/ZEN/Layer 6 copy.png";
+}
+resource HI_images_theme_selection_foucus_png image
+{
+    path : "HI_images/theme_selection/foucus.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_02_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_02.png";
+}
+resource UM_Images_TPMS_TPMS_02_Car_png image
+{
+    path : "UM_Images/TPMS/TPMS_02_Car.png";
+}
+resource _UM_Images_SPAS_SPAS_31_Parking_Point_Area_Parallel_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_31_Parking_Point_Area_Parallel_R.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_Alert_Icon_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_Alert_Icon.png";
+}
+resource _UM_Images_TBT_TBT_Loading_10_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_10.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_3Ch_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_3Ch.png";
+}
+resource _UM_Images_SPAS_SPAS_Gear_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Gear_R.png";
+}
+resource HI_images_welcome_welcome_010_png image
+{
+    path : "HI_images/welcome/welcome_010.png";
+}
+resource UM_Images_USM_New_Radio_box_png image
+{
+    path : "UM_Images/USM/New_Radio_box.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_07_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_07.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Right_Malfunction_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Right_Malfunction.png";
+}
+resource HI_images_contents_Theme_A_gt_av_av_air_png image
+{
+    path : "HI_images/contents/Theme A/gt_av/av_air.png";
+}
+resource _UM_Images_SPAS_SPAS_Vertical_Arrow_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Vertical_Arrow_R.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D1_Brake_Off_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D1_Brake_Off.png";
+}
+resource _UM_Images_PAS_PAS_Front_Center_Malfunction_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Center_Malfunction.png";
+}
+resource _UM_Images_SAS_SAS_01_RightArrow_png image
+{
+    path : "/UM_Images/SAS/SAS_01_RightArrow.png";
+}
+resource HI_images_mode_C_Common_menu_icon04_nor_png image
+{
+    path : "HI_images/mode_C/Common/menu_icon04_nor.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_09_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_09.png";
+}
+resource _UM_Images_TBT_TBT_20_Fork3_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_20_Fork3_Road.png";
+}
+resource _UM_Images_AV_AV_Loading_07_png image
+{
+    path : "/UM_Images/AV/AV_Loading_07.png";
+}
+resource UM_Images_USM_USM_Focus_Bar_png image
+{
+    path : "UM_Images/USM/USM_Focus_Bar.png";
+}
+resource _UM_Images_ISG_ISG_10_Master_Symbol_png image
+{
+    path : "/UM_Images/ISG/ISG_10_Master_Symbol.png";
+}
+resource HI_images_mode_B_Common_00_gui_eco_prnd_n_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_eco_prnd_n.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_sep_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_sep.png";
+}
+resource HI_images_welcome_welcome_030_png image
+{
+    path : "HI_images/welcome/welcome_030.png";
+}
+resource _UM_Images_SBM_SBM_02_Battery_png image
+{
+    path : "/UM_Images/SBM/SBM_02_Battery.png";
+}
+resource _UM_Images_AV_AV_Loading_10_png image
+{
+    path : "/UM_Images/AV/AV_Loading_10.png";
+}
+resource _UM_Images_PAS_PAS_Front_Right_Malfunction_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Right_Malfunction.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_Dh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_Dh.png";
+}
+resource _UM_Images_SPAS_SPAS_17_SPAS_Malfunction_png image
+{
+    path : "/UM_Images/SPAS/SPAS_17_SPAS_Malfunction.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_LKAS_15_Maintenance_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/LKAS_15_Maintenance.png";
+}
+resource HI_images_mode_B_dynamic_Temp_Gague_Temp_gague_dynamic_03_png image
+{
+    path : "HI_images/mode_B/dynamic/Temp Gague/Temp_gague_dynamic_03.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_19_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_19.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Door_RL_Warining_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Door_RL_Warining.png";
+}
+resource _UM_Images_SBM_SBM_11_SmartKey_png image
+{
+    path : "/UM_Images/SBM/SBM_11_SmartKey.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_2Fh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_2Fh.png";
+}
+resource _HI_images_ZEN_Deco_Speed_png image
+{
+    path : "/HI_images/ZEN/Deco_Speed.png";
+}
+resource _UM_Images_TBT_TBT_15_Exit_R_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_15_Exit_R_Road.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_04_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_04.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Left_Lv2_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Left_Lv2.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_10_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_10.png";
+}
+resource HI_images_welcome_welcome_006_png image
+{
+    path : "HI_images/welcome/welcome_006.png";
+}
+resource _UM_Images_AV_AV_Loading_05_png image
+{
+    path : "/UM_Images/AV/AV_Loading_05.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_10_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_10.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_11_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_11.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_46h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_46h.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_23_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_23.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_09_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_09.png";
+}
+resource _UM_Images_SPAS_SPAS_ExitMode_Parked_Car_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_ExitMode_Parked_Car_R.png";
+}
+resource HI_images_welcome_welcome_011_png image
+{
+    path : "HI_images/welcome/welcome_011.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_15_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_15.png";
+}
+resource _UM_Images_SBM_SBM_13_Gear_P_N_png image
+{
+    path : "/UM_Images/SBM/SBM_13_Gear_P_N.png";
+}
+resource _UM_Images_PAS_PAS_Car_png image
+{
+    path : "/UM_Images/PAS/PAS_Car.png";
+}
+resource _UM_Images_TBT_TBT_Loading_03_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_03.png";
+}
+resource _UM_Images_TBT_TBT_Loading_00_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_00.png";
+}
+resource HI_images_mode_C_Common_menu_icon05_nor_png image
+{
+    path : "HI_images/mode_C/Common/menu_icon05_nor.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_18_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_18.png";
+}
+resource _UM_Images_TBT_TBT_03_Person_png image
+{
+    path : "/UM_Images/TBT/TBT_03_Person.png";
+}
+resource _UM_Images_Warning_Warning_12_PSB_Check_png image
+{
+    path : "/UM_Images/Warning/Warning_12_PSB_Check.png";
+}
+resource _UM_Images_TBT_TBT_Loading_11_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_11.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_rightline_focus_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_rightline_focus.png";
+}
+resource HI_images_contents_Theme_A_gt_ldws_ldws_leftline_focus_png image
+{
+    path : "HI_images/contents/Theme A/gt_ldws/ldws_leftline_focus.png";
+}
+resource HI_images_mode_B_Common_00_gui_dynamic_prnd_r_png image
+{
+    path : "HI_images/mode_B/Common/00_gui_dynamic_prnd_r.png";
+}
+resource _UM_Images_TBT_TBT_26_Overpass_L_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_26_Overpass_L_Left.png";
+}
+resource HI_images_mode_B_dynamic_transition_dynamic_exp_tr_leftcircle_dynamic_00_png image
+{
+    path : "HI_images/mode_B/dynamic/transition_dynamic/exp_tr_leftcircle_dynamic_00.png";
+}
+resource _UM_Images_Bottom_OAT_Unit_C_png image
+{
+    path : "/UM_Images/Bottom/OAT_Unit_C.png";
+}
+resource _UM_Images_SteeringMode_Steering_Mode_02_Sport_png image
+{
+    path : "/UM_Images/SteeringMode/Steering_Mode_02_Sport.png";
+}
+resource _HI_images_ZEN_Base_Gauge_png image
+{
+    path : "/HI_images/ZEN/Base Gauge.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_44h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_44h.png";
+}
+resource _UM_Images_PAS_PAS_Front_Center_Lv2_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Center_Lv2.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_8h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_8h.png";
+}
+resource _UM_Images_AV_AV_Loading_03_png image
+{
+    path : "/UM_Images/AV/AV_Loading_03.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_4h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_4h.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_09_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_09.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Left_Malfunction_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Left_Malfunction.png";
+}
+resource UM_Images_TBT_TBT_10_Roundabout_L_16_png image
+{
+    path : "UM_Images/TBT/TBT_10_Roundabout_L_16.png";
+}
+resource _UM_Images_SBM_SBM_Steering_Wheel_png image
+{
+    path : "/UM_Images/SBM/SBM_Steering_Wheel.png";
+}
+resource HI_images_welcome_welcome_031_png image
+{
+    path : "HI_images/welcome/welcome_031.png";
+}
+resource _UM_Images_SPAS_SPAS_29_Point_Boundary_Vertical_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_29_Point_Boundary_Vertical_L.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_17_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_17.png";
+}
+resource HI_images_page_indiactor_I_Page_Indicator_Select_png image
+{
+    path : "HI_images/page_indiactor/I_Page_Indicator_Select.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_13h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_13h.png";
+}
+resource _UM_Images_ISG_ISG_02_AutoStart_png image
+{
+    path : "/UM_Images/ISG/ISG_02_AutoStart.png";
+}
+resource UM_Images_USM_new_next_png image
+{
+    path : "UM_Images/USM/new_next.png";
+}
+resource _UM_Images_SPAS_SPAS_32_Parking_Point_Area_Parallel_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_32_Parking_Point_Area_Parallel_L.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_02_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_02.png";
+}
+resource HI_images_welcome_welcome_032_png image
+{
+    path : "HI_images/welcome/welcome_032.png";
+}
+resource HI_images_welcome_welcome_014_png image
+{
+    path : "HI_images/welcome/welcome_014.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_7h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_7h.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_07_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_07.png";
+}
+resource HI_images_mode_B_dynamic_transition_dynamic_exp_tr_rightcircle_dynamic_00_png image
+{
+    path : "HI_images/mode_B/dynamic/transition_dynamic/exp_tr_rightcircle_dynamic_00.png";
+}
+resource _UM_Images_TBT_TBT_Progress_Bar_Boundary_png image
+{
+    path : "/UM_Images/TBT/TBT_Progress_Bar_Boundary.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D2_Brake_Off_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D2_Brake_Off.png";
+}
+resource HI_images_mode_C_eco_fuel_icon_eco_png image
+{
+    path : "HI_images/mode_C/eco/fuel-icon_eco.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_13_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_13.png";
+}
+resource _UM_Images_SBM_SBM_10_Start_Button_Outer_png image
+{
+    path : "/UM_Images/SBM/SBM_10_Start_Button_Outer.png";
+}
+resource _UM_Images_PAS_PAS_Front_Right_Lv1_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Right_Lv1.png";
+}
+resource _UM_Images_AV_AV_DVD_png image
+{
+    path : "/UM_Images/AV/AV_DVD.png";
+}
+resource _UM_Images_TBT_TBT_26_Overpass_L_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_26_Overpass_L_Road.png";
+}
+resource _UM_Images_Popup_Popup_Bg_png image
+{
+    path : "/UM_Images/Popup/Popup_Bg.png";
+}
+resource _UM_Images_SBM_SBM_03_Steering_Wheel_Arrow_png image
+{
+    path : "/UM_Images/SBM/SBM_03_Steering_Wheel_Arrow.png";
+}
+resource _UM_Images_PAS_PAS_Front_Center_Lv1_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Center_Lv1.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_Check_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_Check.png";
+}
+resource _UM_Images_AV_AV_CD_MP3_png image
+{
+    path : "/UM_Images/AV/AV_CD_MP3.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_13_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_13.png";
+}
+resource HI_images_mode_A_TopICON_Line__2_png image
+{
+    path : "HI_images/mode_A/TopICON/Line _2.png";
+}
+resource _UM_Images_SPAS_SPAS_Steering_Wheel_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Steering_Wheel.png";
+}
+resource HI_images_welcome_welcome_015_png image
+{
+    path : "HI_images/welcome/welcome_015.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Door_FR_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Door_FR.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_00_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_00.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_05_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_05.png";
+}
+resource HI_images_mode_B_eco_needle_eco_png image
+{
+    path : "HI_images/mode_B/eco/needle_eco.png";
+}
+resource _UM_Images_AV_AV_Loading_15_png image
+{
+    path : "/UM_Images/AV/AV_Loading_15.png";
+}
+resource HI_images_welcome_welcome_039_png image
+{
+    path : "HI_images/welcome/welcome_039.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_text_bg_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_text_bg.png";
+}
+resource _UM_Images_SteeringMode_Steering_Mode_01_Normal_png image
+{
+    path : "/UM_Images/SteeringMode/Steering_Mode_01_Normal.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_2Eh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_2Eh.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_08_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_08.png";
+}
+resource HI_images_mode_B_dynamic_transition_dynamic_Left_Circle_exp_tr_leftcircle_dynamic_00_png image
+{
+    path : "HI_images/mode_B/dynamic/transition_dynamic/Left Circle/exp_tr_leftcircle_dynamic_00.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_road_03_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_road_03.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_Eh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_Eh.png";
+}
+resource HI_images_mode_B_comfort_transition_comfort_exp_tr_leftcircle_comfort_bg_png image
+{
+    path : "HI_images/mode_B/comfort/transition_comfort/exp_tr_leftcircle_comfort_bg.png";
+}
+resource _UM_Images_SPAS_SPAS_Steerring_Wheel_Arrow_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Steerring_Wheel_Arrow.png";
+}
+resource _HI_images_ZEN_sun_png image
+{
+    path : "/HI_images/ZEN/sun.png";
+}
+resource _UM_Images_TBT_TBT_27_Underpass_R_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_27_Underpass_R_Right.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_04_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_04.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Right_Lv3_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Right_Lv3.png";
+}
+resource HI_images_welcome_welcome_019_png image
+{
+    path : "HI_images/welcome/welcome_019.png";
+}
+resource HI_images_mode_A_TopICON_USM_png image
+{
+    path : "HI_images/mode_A/TopICON/USM.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_11_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_11.png";
+}
+resource _UM_Images_TBT_TBT_Loading_02_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_02.png";
+}
+resource HI_images_welcome_welcome_003_png image
+{
+    path : "HI_images/welcome/welcome_003.png";
+}
+resource _UM_Images_TBT_TBT_01_Center_Circle_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Center_Circle.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_10_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_10.png";
+}
+resource _HI_images_ZEN_Pointer_png image
+{
+    path : "/HI_images/ZEN/Pointer.png";
+}
+resource _UM_Images_Rheostat_Rheostat_Graphics_Gauge_Lv_01_png image
+{
+    path : "/UM_Images/Rheostat/Rheostat_Graphics_Gauge_Lv_01.png";
+}
+resource _UM_Images_SBM_SBM_Press_Arrow_png image
+{
+    path : "/UM_Images/SBM/SBM_Press_Arrow.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_22h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_22h.png";
+}
+resource _UM_Images_AV_AV_Loading_09_png image
+{
+    path : "/UM_Images/AV/AV_Loading_09.png";
+}
+resource UM_Images_SPAS_SPAS_TopIcon_Parking_Parallel_R_png image
+{
+    path : "UM_Images/SPAS/SPAS_TopIcon_Parking_Parallel_R.png";
+}
+resource HI_images_mode_A_TopICON_AV_png image
+{
+    path : "HI_images/mode_A/TopICON/AV.png";
+}
+resource _UM_Images_SPAS_SPAS_30_Parking_Point_Area_Vertical_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_30_Parking_Point_Area_Vertical_L.png";
+}
+resource _UM_Images_SBM_SBM_01_Gear_P_png image
+{
+    path : "/UM_Images/SBM/SBM_01_Gear_P.png";
+}
+resource UM_Images_Popup_Popup_Amber_png image
+{
+    path : "UM_Images/Popup/Popup_Amber.png";
+}
+resource _UM_Images_TBT_TBT_18_Exit_Combination_L_Road_png image
+{
+    path : "/UM_Images/TBT/TBT_18_Exit_Combination_L_Road.png";
+}
+resource _UM_Images_PAS_PAS_Front_Left_Lv3_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Left_Lv3.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_20_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_20.png";
+}
+resource _UM_Images_AV_AV_Loading_14_png image
+{
+    path : "/UM_Images/AV/AV_Loading_14.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_12_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_12.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_3Bh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_3Bh.png";
+}
+resource _UM_Images_TBT_TBT_18_Exit_Combination_L_Road_SideStreet_png image
+{
+    path : "/UM_Images/TBT/TBT_18_Exit_Combination_L_Road_SideStreet.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_25h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_25h.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_39h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_39h.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_38h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_38h.png";
+}
+resource _UM_Images_SPAS_SPAS_24_ExitMode_Arrow_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_24_ExitMode_Arrow_L.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_10_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_10.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_07_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_07.png";
+}
+resource _UM_Images_AV_AV_Loading_13_png image
+{
+    path : "/UM_Images/AV/AV_Loading_13.png";
+}
+resource HI_images_contents_Theme_A_gt_scc_scc_ldws_warning_png image
+{
+    path : "HI_images/contents/Theme A/gt_scc/scc_ldws_warning.png";
+}
+resource HI_images_mode_C_Common_menu_icon03_nor_png image
+{
+    path : "HI_images/mode_C/Common/menu_icon03_nor.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_14_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_14.png";
+}
+resource _UM_Images_TBT_TBT_28_Underpass_L_Right_png image
+{
+    path : "/UM_Images/TBT/TBT_28_Underpass_L_Right.png";
+}
+resource UM_Images_SBM_SBM_SmartKey_png image
+{
+    path : "UM_Images/SBM/SBM_SmartKey.png";
+}
+resource _UM_Images_SAS_SAS_02_LeftTire_png image
+{
+    path : "/UM_Images/SAS/SAS_02_LeftTire.png";
+}
+resource HI_images_mode_B_dynamic_rpm_dot_dynamic_png image
+{
+    path : "HI_images/mode_B/dynamic/rpm_dot_dynamic.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_icon_haptic_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_icon_haptic.png";
+}
+resource _UM_Images_SPAS_SPAS_32_Point_Boundary_Parallel_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_32_Point_Boundary_Parallel_L.png";
+}
+resource HI_images_contents_Theme_A_gt_av_av_antena_png image
+{
+    path : "HI_images/contents/Theme A/gt_av/av_antena.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_11_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_11.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_14_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_14.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_Fh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_Fh.png";
+}
+resource UM_Images_Popup_Popup_Red_png image
+{
+    path : "UM_Images/Popup/Popup_Red.png";
+}
+resource HI_images_mode_C_comfort_Fuel_Gague_fuel_gague_comfort_17_png image
+{
+    path : "HI_images/mode_C/comfort/Fuel Gague/fuel_gague_comfort_17.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_2Ch_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_2Ch.png";
+}
+resource HI_images_mode_B_dynamic_transition_dynamic_Right_Circle_exp_tr_rightcircle_dynamic_00_png image
+{
+    path : "HI_images/mode_B/dynamic/transition_dynamic/Right Circle/exp_tr_rightcircle_dynamic_00.png";
+}
+resource HI_images_mode_B_comfort_Fuel_Gague_fuel_gague_comfort_07_png image
+{
+    path : "HI_images/mode_B/comfort/Fuel Gague/fuel_gague_comfort_07.png";
+}
+resource HI_images_mode_C_eco_Temp_Gague_temp_gague_eco_03_png image
+{
+    path : "HI_images/mode_C/eco/Temp Gague/temp_gague_eco_03.png";
+}
+resource _UM_Images_PAS_PAS_Front_Left_Malfunction_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Left_Malfunction.png";
+}
+resource _UM_Images_TBT_TBT_Roundabout_Road_13_png image
+{
+    path : "/UM_Images/TBT/TBT_Roundabout_Road_13.png";
+}
+resource _UM_Images_TBT_TBT_Loading_06_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_06.png";
+}
+resource _UM_Images_AV_AV_Loading_08_png image
+{
+    path : "/UM_Images/AV/AV_Loading_08.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_19_Cruise_Symbol_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_19_Cruise_Symbol.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_03_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_03.png";
+}
+resource _UM_Images_SBM_SBM_02_Battery_Low_png image
+{
+    path : "/UM_Images/SBM/SBM_02_Battery_Low.png";
+}
+resource _UM_Images_TBT_TBT_15_Exit_R_Road_SideStreet_png image
+{
+    path : "/UM_Images/TBT/TBT_15_Exit_R_Road_SideStreet.png";
+}
+resource _UM_Images_SPAS_SPAS_31_Point_Boundary_Parallel_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_31_Point_Boundary_Parallel_R.png";
+}
+resource _UM_Images_TBT_TBT_28_Underpass_L_Left_png image
+{
+    path : "/UM_Images/TBT/TBT_28_Underpass_L_Left.png";
+}
+resource HI_images_mode_C_dynamic_temp_icon_dynamic_png image
+{
+    path : "HI_images/mode_C/dynamic/temp-icon_dynamic.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_26h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_26h.png";
+}
+resource _UM_Images_TBT_TBT_Loading_08_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_08.png";
+}
+resource _UM_Images_SPAS_SPAS_Radar_L_Lv3_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Radar_L_Lv3.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_My_Car_D4_Brake_On_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_My_Car_D4_Brake_On.png";
+}
+resource _UM_Images_SPAS_SPAS_Point_Boundary_Parallel_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Point_Boundary_Parallel_L.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_37h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_37h.png";
+}
+resource _UM_Images_TBT_TBT_03_Flag_png image
+{
+    path : "/UM_Images/TBT/TBT_03_Flag.png";
+}
+resource HI_images_opening_bg_png image
+{
+    path : "HI_images/opening/bg.png";
+}
+resource _UM_Images_SPAS_SPAS_TopIcon_Exit_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_TopIcon_Exit_R.png";
+}
+resource _UM_Images_PAS_PAS_Front_Right_Lv3_png image
+{
+    path : "/UM_Images/PAS/PAS_Front_Right_Lv3.png";
+}
+resource HI_images_mode_A_TopICON_TBT_png image
+{
+    path : "HI_images/mode_A/TopICON/TBT.png";
+}
+resource HI_images_welcome_welcome_023_png image
+{
+    path : "HI_images/welcome/welcome_023.png";
+}
+resource _UM_Images_SPAS_SPAS_Vertical_Parked_Car_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Vertical_Parked_Car_L.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_07_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_07.png";
+}
+resource _UM_Images_SAS_SAS_03_GreenTire_png image
+{
+    path : "/UM_Images/SAS/SAS_03_GreenTire.png";
+}
+resource UM_Images_USM_List_Line_png image
+{
+    path : "UM_Images/USM/List_Line.png";
+}
+resource UM_Images_USM_USM_Back_png image
+{
+    path : "UM_Images/USM/USM_Back.png";
+}
+resource HI_images_mode_A_TopICON_Line__png image
+{
+    path : "HI_images/mode_A/TopICON/Line .png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Carbody_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Carbody.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_00_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_00.png";
+}
+resource _UM_Images_ISG_ISG_08_Clutch_Boots_png image
+{
+    path : "/UM_Images/ISG/ISG_08_Clutch_Boots.png";
+}
+resource _UM_Images_ISG_ISG_AutoStop_Invalid_png image
+{
+    path : "/UM_Images/ISG/ISG_AutoStop_Invalid.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_SCC_25_Stopped_Vehicle_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/SCC_25_Stopped_Vehicle.png";
+}
+resource HI_images_mode_A_TopICON_GIA_png image
+{
+    path : "HI_images/mode_A/TopICON/GIA.png";
+}
+resource _UM_Images_SPAS_SPAS_Vertical_Arrow_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Vertical_Arrow_L.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_11_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_11.png";
+}
+resource HI_images_mode_A_Common_00_gui_gauge_mask_L_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_gauge_mask_L.png";
+}
+resource _UM_Images_Warning_Warning_07_BSD_System_Check_png image
+{
+    path : "/UM_Images/Warning/Warning_07_BSD_System_Check.png";
+}
+resource HI_images_mode_A_Common_00_gui_prnd_p_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_prnd_p.png";
+}
+resource HI_images_mode_A_TopICON_Line_3_png image
+{
+    path : "HI_images/mode_A/TopICON/Line_3.png";
+}
+resource HI_images_mode_C_eco_needle_Graph_Tachometer_tachometer_eco_00_png image
+{
+    path : "HI_images/mode_C/eco/needle Graph/Tachometer/tachometer_eco_00.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Door_FL_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Door_FL.png";
+}
+resource _UM_Images_SCC_LKAS_LDWS_LKAS_16_Alert_png image
+{
+    path : "/UM_Images/SCC_LKAS_LDWS/LKAS_16_Alert.png";
+}
+resource HI_images_mode_A_Common_00_gui_gauge_mask_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_gauge_mask.png";
+}
+resource HI_images_mode_A_comfort_00_gui_benzin_temp_ring_comfort_png image
+{
+    path : "HI_images/mode_A/comfort/00_gui_benzin&temp_ring_comfort.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_06_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_06.png";
+}
+resource _UM_Images_TBT_TBT_01_Title_Area_Flag_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Title_Area_Flag.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_00_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_00.png";
+}
+resource _UM_Images_SPAS_SPAS_30_Point_Boundary_Vertical_L_png image
+{
+    path : "/UM_Images/SPAS/SPAS_30_Point_Boundary_Vertical_L.png";
+}
+resource HI_images_mode_B_eco_rpm_dot_eco_png image
+{
+    path : "HI_images/mode_B/eco/rpm_dot_eco.png";
+}
+resource _UM_Images_SPAS_SPAS_TopIcon_Bg_Temp_png image
+{
+    path : "/UM_Images/SPAS/SPAS_TopIcon_Bg_Temp.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_1Bh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_1Bh.png";
+}
+resource HI_images_mode_C_comfort_fuel_icon_comfort_png image
+{
+    path : "HI_images/mode_C/comfort/fuel-icon_comfort.png";
+}
+resource HI_images_theme_selection_Theme_C_png image
+{
+    path : "HI_images/theme_selection/Theme_C.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_05_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_05.png";
+}
+resource HI_images_mode_B_comfort_needle_comfort_png image
+{
+    path : "HI_images/mode_B/comfort/needle_comfort.png";
+}
+resource _UM_Images_ISG_ISG_03_AutoStop_Status_Off_png image
+{
+    path : "/UM_Images/ISG/ISG_03_AutoStop_Status_Off.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass.png";
+}
+resource _UM_Images_TBT_TBT_Loading_07_png image
+{
+    path : "/UM_Images/TBT/TBT_Loading_07.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_01_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_01.png";
+}
+resource HI_images_mode_A_TopICON_ZEN_png image
+{
+    path : "HI_images/mode_A/TopICON/ZEN.png";
+}
+resource _UM_Images_SPAS_SPAS_Parking_Point_Area_Parallel_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Parking_Point_Area_Parallel_R.png";
+}
+resource UM_Images_USM_New_Radio_png image
+{
+    path : "UM_Images/USM/New_Radio.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Left_Lv1_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Left_Lv1.png";
+}
+resource HI_images_mode_A_Common_00_gui_drivingmode_dynamic_png image
+{
+    path : "HI_images/mode_A/Common/00_gui_drivingmode_dynamic.png";
+}
+resource HI_images_theme_selection_Theme_B_png image
+{
+    path : "HI_images/theme_selection/Theme_B.png";
+}
+resource _UM_Images_SBM_SBM_12_Master_Symbol_png image
+{
+    path : "/UM_Images/SBM/SBM_12_Master_Symbol.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_10h_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_10h.png";
+}
+resource HI_images_mode_B_eco_Fuel_Gague_fuel_gague_eco_07_png image
+{
+    path : "HI_images/mode_B/eco/Fuel Gague/fuel_gague_eco_07.png";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_08_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_08.png";
+}
+resource _UM_Images_TBT_TBT_11_Turn_Road_00_png image
+{
+    path : "/UM_Images/TBT/TBT_11_Turn_Road_00.png";
+}
+resource UM_Images_TBT_Pre_Info_Symbol_TBT_Sidestreet_1Dh_png image
+{
+    path : "UM_Images/TBT_Pre_Info_Symbol/TBT_Sidestreet_1Dh.png";
+}
+resource _UM_Images_SPAS_SPAS_Radar_R_Lv2_png image
+{
+    path : "/UM_Images/SPAS/SPAS_Radar_R_Lv2.png";
+}
+resource HI_images_welcome_welcome_016_png image
+{
+    path : "HI_images/welcome/welcome_016.png";
+}
+resource _UM_Images_TBT_TBT_04_Compass_Direction_12_png image
+{
+    path : "/UM_Images/TBT/TBT_04_Compass_Direction_12.png";
+}
+resource NONE image
+{
+    path : "";
+}
+resource HI_images_contents_Theme_A_gt_trip_trip_computer_graph_06_png image
+{
+    path : "HI_images/contents/Theme A/gt_trip/trip_computer_graph_06.png";
+}
+resource HI_images_mode_C_eco_temp_icon_eco_png image
+{
+    path : "HI_images/mode_C/eco/temp-icon_eco.png";
+}
+resource _UM_Images_TBT_TBT_01_Diection_To_Destination_08_png image
+{
+    path : "/UM_Images/TBT/TBT_01_Diection_To_Destination_08.png";
+}
+resource HI_images_mode_A_Common_needle_r_png image
+{
+    path : "HI_images/mode_A/Common/needle_r.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Hood_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Hood.png";
+}
+resource _UM_Images_SPAS_SPAS_22_ExitMode_Arrow_R_png image
+{
+    path : "/UM_Images/SPAS/SPAS_22_ExitMode_Arrow_R.png";
+}
+resource HI_images_welcome_welcome_012_png image
+{
+    path : "HI_images/welcome/welcome_012.png";
+}
+resource _UM_Images_EPB_EPB_01_PBrake_png image
+{
+    path : "/UM_Images/EPB/EPB_01_PBrake.png";
+}
+resource _UM_Images_PAS_PAS_Rear_Left_Lv3_png image
+{
+    path : "/UM_Images/PAS/PAS_Rear_Left_Lv3.png";
+}
+resource _HI_images_ZEN_Small_Weather_Line_png image
+{
+    path : "/HI_images/ZEN/Small Weather Line.png";
+}
+resource _UM_Images_TBT_TBT_09_Roundabout_R_05_png image
+{
+    path : "/UM_Images/TBT/TBT_09_Roundabout_R_05.png";
+}
+resource HI_images_welcome_welcome_021_png image
+{
+    path : "HI_images/welcome/welcome_021.png";
+}
+resource _UM_Images_DoorOpen_DoorOpen_Door_RL_png image
+{
+    path : "/UM_Images/DoorOpen/DoorOpen_Door_RL.png";
+}
